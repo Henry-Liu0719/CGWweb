@@ -14,12 +14,19 @@ let signupInfo =     {
 //       email: "pikachu@mail.com",
 //       password: "wda@123",
 //     }
-let updateInfo =     {
+let updateInfo = {
       id: "",
       password: "wda@123",
     }
-let kidsOfMember=[];
 
+
+let data;
+let userInfo;
+let kidsList;
+let recentSleepTime;
+let sleepTimeByMonth;
+let foodRecordsByMonth;
+let monthlyRecords;
 
 function getDatetime(){
   const now = new Date();
@@ -44,7 +51,7 @@ function generateDailyObjArr(
   let lunchRecordArr=[];
   let dinnerRecordArr=[];
   let dailyRecord={
-      "id": 1,
+      "id": id,
       "kidId": kidId,
       "userId": userId,
       "record_date": "",
@@ -54,7 +61,7 @@ function generateDailyObjArr(
       "create_at": ""    
   };
   let breakfastRecord={
-      "id": 1,
+      "id": id,
       "kidId": kidId,
       "userId": userId,
       "daily_recordId": 1,
@@ -76,7 +83,7 @@ function generateDailyObjArr(
       "create_at": ""    
   };
   let dinnerRecord={
-      "id": 1,
+      "id": id,
       "kidId": kidId,
       "userId": userId,
       "daily_recordId": 1,
@@ -90,19 +97,19 @@ function generateDailyObjArr(
   // console.log(randomTime);
   const dateRange = generateDateRange("2023-09-24", "2023-11-15");
   // console.log(dateRange);
-  for (let id = 1; id <= dateRange.length; id++) {
+  for (let Index = 0; Index < dateRange.length; Index++) {
     // 生成随机时间
     const wakeup_time = generateRandomTime(7,10);
     const sleep_time = generateRandomTime(20,23);
     dailyRecord={
-      "id": id,
+      "id": Index+id,
       "kidId": kidId,
       "userId": userId,
-      "record_date": dateRange[id-1],
+      "record_date": dateRange[Index],
       "wakeup_time": wakeup_time,
       "sleep_time": sleep_time,
       "sleep_hours":countSleepHours(sleep_time,wakeup_time),
-      "create_at": `${dateRange[id-1]} ${sleep_time}`
+      "create_at": `${dateRange[Index]} ${sleep_time}`
     };
     dailyRecordArr.push(dailyRecord);
     
@@ -130,15 +137,15 @@ function generateDailyObjArr(
       "烤土司、咖啡"
     ];
     breakfastRecord={
-      "id": id,
-      "daily_recordId": id,
+      "id": Index+id,
+      "daily_recordId": Index+id,
       "kidId": kidId,
       "userId": userId,
-      "record_date": dateRange[id-1],
+      "record_date": dateRange[id],
       "content": breakfastOptions[Math.floor(Math.random()*breakfastOptions.length)] ,
       "noBreadMilk": Math.random() < 0.5 ?"Y":"N",
       "noDessert": Math.random() < 0.5 ?"Y":"N",
-      "create_at": `${dateRange[id-1]} ${sleep_time}`
+      "create_at": `${dateRange[id]} ${sleep_time}`
     };
     breakfastRecordArr.push(breakfastRecord);
 
@@ -165,15 +172,15 @@ function generateDailyObjArr(
       "綠咖哩飯"
     ];
     lunchRecord={
-      "id": id,
-      "daily_recordId": id,
+      "id": Index+id,
+      "daily_recordId": Index+id,
       "kidId": kidId,
       "userId": userId,
-      "record_date": dateRange[id-1],
+      "record_date": dateRange[Index],
       "content": lunchOptions[Math.floor(Math.random()*lunchOptions.length)] ,
       "noBreadMilk": Math.random() < 0.5 ?"Y":"N",
       "noDessert": Math.random() < 0.5 ?"Y":"N",
-      "create_at": `${dateRange[id-1]} ${sleep_time}`
+      "create_at": `${dateRange[Index]} ${sleep_time}`
     };
     lunchRecordArr.push(lunchRecord);
 
@@ -200,15 +207,15 @@ function generateDailyObjArr(
       "鰻魚飯"
     ];
     dinnerRecord={
-      "id": id,
-      "daily_recordId": id,
+      "id": Index+id,
+      "daily_recordId": Index+id,
       "kidId": kidId,
       "userId": userId,
-      "record_date": dateRange[id-1],
+      "record_date": dateRange[Index],
       "content": dinnerOptions[Math.floor(Math.random()*dinnerOptions.length)] ,
       "noBreadMilk": Math.random() < 0.5 ?"Y":"N",
       "noDessert": Math.random() < 0.5 ?"Y":"N",
-      "create_at": `${dateRange[id-1]} ${sleep_time}`
+      "create_at": `${dateRange[Index]} ${sleep_time}`
     };
     dinnerRecordArr.push(dinnerRecord);
   }
@@ -274,6 +281,36 @@ function generateDailyObjArr(
     return totalDuration / 3600000;
   }
 
-
-
 }
+
+  function getMonthDate(str,year=0,month=0){
+    // 创建当前日期的 Date 对象
+    const currentDate = (year==0&month==0)?new Date():new Date(year,month-1,1);
+
+    // 获取当前月份的年份和月份
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = currentDate.getMonth();
+
+    // 获取本月的第一天（1 号）
+    const firstDayOfCurrentMonth = new Date(currentYear, currentMonth, 1);
+    // 加上 8 小时以调整时区
+    firstDayOfCurrentMonth.setHours(firstDayOfCurrentMonth.getHours() + 8);
+    // console.log(firstDayOfCurrentMonth);
+    // 获取下个月的第一天（为了计算本月的最后一天）
+    const nextMonth = currentMonth + 1;
+    const nextMonthYear = currentYear + (nextMonth > 11 ? 1 : 0);
+    const firstDayOfNextMonth = new Date(nextMonthYear, nextMonth % 12, 1);
+
+    // 计算本月的最后一天（上个月的最后一天）
+    const lastDayOfCurrentMonth = new Date(firstDayOfNextMonth - 1);
+
+    // 格式化日期为 "YYYY-MM-DD" 形式
+    const formattedFirstDay = firstDayOfCurrentMonth.toISOString().split('T')[0];
+    const formattedLastDay = lastDayOfCurrentMonth.toISOString().split('T')[0];
+    if(str=='firstDay')
+      return formattedFirstDay
+    if(str=='lastDay')
+      return formattedLastDay
+
+    return console.log('請輸入firstDay或lastDay');
+  }

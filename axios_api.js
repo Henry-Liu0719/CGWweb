@@ -27,7 +27,7 @@ function signup(){
   })
 }
 
-function login(email='pikachu@mail.com',password='wda@123'){
+function login(email='Charizard@mail.com',password='wda@123'){
   axios.post(`${url}/login`,{
     email:email,
     password:password
@@ -36,6 +36,8 @@ function login(email='pikachu@mail.com',password='wda@123'){
     token = response.data.accessToken;
     updateInfo.id = response.data.user.id;
     console.log(response.data);
+    getUserInfo();
+
   })
   .catch(function (error){
     console.log(error.response);
@@ -50,13 +52,13 @@ function updatePassword(){
   })
   .then(function (response){
     token = response.data.accessToken;
-    console.log(response.data);
+    console.log(response.data); 
   })
   .catch(function (error){
     console.log(error.response);
   })
 }
-function getMemberInfo(){
+function getUserInfo(){
   // login();
   axios.get(`${url}/600/users/${updateInfo.id.toString()}?_embed=kids`,{
     headers:{
@@ -64,26 +66,70 @@ function getMemberInfo(){
     }
   })
   .then(function (response){
-    // token = response.data.accessToken;
-    // console.log(response.data);
-    // return response.data;
-    let namesOfKids = [];
-    response.data.kids.forEach(element => {
-      namesOfKids.push(element.kid_name);
-    });
-    // console.log(kidsOfMember);
-    let userInfo = response.data;
-    delete userInfo.password;
-    let kidsOfMember = userInfo.kids;
-    delete userInfo.kids;
-    let obj={
-      userInfo,
-      kidsOfMember
-      // namesOfKids
+    console.log(response.data);
+    data = response.data;
+    kidsList = response.data.kids;
+    userInfo = response.data;
+  })
+  .catch(function (error){
+    console.log(error.response);
+  })
+}
+function getRecentSleepTime(kidNum=0){
+  // login();
+  axios.get(`${url}/600/daily_records?kidId=${data.kids[kidNum].id.toString()}&userId=${data.id.toString()}&_sort=record_date&_order=desc&_limit=7`,{
+    headers:{
+      "authorization":`Bearer ${token}`
     }
-    console.log(obj);
-    return obj;
-    
+  })
+  .then(function (response){
+    console.log(response.data);
+    recentSleepTime = response.data;
+  })
+  .catch(function (error){
+    console.log(error.response);
+  })
+}
+function getSleepTimeByMonth(kidNum=0,year=0,month=0){
+  // login();
+  axios.get(`${url}/600/daily_records?kidId=${data.kids[kidNum].id.toString()}&record_date_gte=${getMonthDate('firstDay',year,month)}&record_date_lte=${getMonthDate('lastDay',year,month)}&_sort=record_date&_order=asc`,{
+    headers:{
+      "authorization":`Bearer ${token}`
+    }
+  })
+  .then(function (response){
+    console.log(response.data);
+    sleepTimeByMonth = response.data;
+  })
+  .catch(function (error){
+    console.log(error.response);
+  })
+}
+function getFoodRecordsByMonth(kidNum=0,year=0,month=0){
+  // login();
+  axios.get(`${url}/600/daily_records?kidId=${data.kids[kidNum].id.toString()}&_sort=record_date&_order=asc&record_date_gte=${getMonthDate('firstDay',year,month)}&record_date_lte=${getMonthDate('lastDay',year,month)}&_embed=breakfast_records&_embed=lunch_records&_embed=dinner_records`,{
+    headers:{
+      "authorization":`Bearer ${token}`
+    }
+  })
+  .then(function (response){
+    console.log(response.data);
+    foodRecordsByMonth = response.data;
+  })
+  .catch(function (error){
+    console.log(error.response);
+  })
+}
+function getMonthlyRecords(num = 1,kidNum=0){
+  // login();
+  axios.get(`${url}/600/monthly_records?kidId=${data.kids[kidNum].id.toString()}&_sort=record_month&_order=desc&_limit=${num}`,{
+    headers:{
+      "authorization":`Bearer ${token}`
+    }
+  })
+  .then(function (response){
+    console.log(response.data);
+    monthlyRecords = response.data;
   })
   .catch(function (error){
     console.log(error.response);
