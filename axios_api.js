@@ -135,3 +135,29 @@ function getMonthlyRecords(num = 1,kidNum=0){
     console.log(error.response);
   })
 }
+
+async function tryApi() {
+  try {
+    const response = await axios.get(`${url}/600/users/${updateInfo.id.toString()}?_embed=kids`,{
+    headers:{
+      "authorization":`Bearer ${token}`
+    }
+  })
+    console.log(response.data);
+    return response.data
+    
+   
+  } catch (error) {
+    console.log(error.response);
+    throw error; // 抛出错误以便处理错误情况
+  }
+}
+
+async function main() {
+  try {
+    const result = await tryApi();
+    console.log("Promise 已解决，结果为: ", result);
+  } catch (error) {
+    console.error("Promise 已拒绝，错误为: ", error);
+  }
+}
