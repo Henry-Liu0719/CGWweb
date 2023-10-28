@@ -1,5 +1,5 @@
-// const url = 'https://cgwweb.onrender.com';
-const url = 'http://localhost:3000';
+const url = 'https://cgwweb.onrender.com';
+// const url = 'http://localhost:3000';
 let token = '';
 // let signupInfo =     {
 //       email: "pikachu@mail.com",
@@ -15,22 +15,23 @@ let token = '';
 //       email: "pikachu@mail.com",
 //       password: "wda@123",
 //     }
-let updateInfo = {
-      id: "",
-      password: "wda@123",
-    }
+// let updateInfo = {
+//       id: "",
+//       password: "wda@123",
+//     }
 
 
-let data;
+// let data;
 let userInfo;
-let kidsList;
-let recentSleepTime;
-let sleepTimeByMonth;
-let foodRecordsByMonth;
-let monthlyRecords;
-let testData;
-let signupData;
-let addKidData;
+// let kidsList;
+// let recentSleepTime;
+// let sleepTimeByMonth;
+// let foodRecordsByMonth;
+// let monthlyRecords;
+// let testData;
+// let signupData;
+// let addKidData;
+let _response;
 
 function getDatetime(){
   const now = new Date();

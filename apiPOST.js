@@ -11,12 +11,14 @@ function signup(signupInfo= {
   signupInfo.isExist = "Y";
   axios.post(`${url}/signup`,signupInfo)
   .then(function (response){
-    console.log(response.data);
-    signupData = response.data;
+    token = response.data.accessToken;
+    data = response.data;
+    console.log(response);
+    _response = response;
   })
   .catch(function (error){
     console.log(error.response);
-    signupData = error.response;
+    _response = error.response;
   })
 }
 
@@ -27,13 +29,15 @@ function login(email='Charizard@mail.com',password='wda@123'){
   })
   .then(function (response){
     token = response.data.accessToken;
-    updateInfo.id = response.data.user.id;
-    console.log(response.data);
+    userInfo = response.data.user;
+    console.log(response);
+    _response=response;
     getUserInfo();
 
   })
   .catch(function (error){
     console.log(error.response);
+    _response=error.response;
   })
 }
 
@@ -53,11 +57,11 @@ function addKid(kidInfo= {
   kidInfo.isExist = "Y";
   axios.post(`${url}/kids`,kidInfo)
   .then(function (response){
-    console.log(response.data);
-    addKidData = response.data;
+    console.log(response);
+    _response = response;
   })
   .catch(function (error){
     console.log(error.response);
-    addKidData = error.response;
+    _response = error.response;
   })
 }

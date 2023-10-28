@@ -88,6 +88,18 @@
       "isExist": "Y",
       "id": 6,
       "modified_time": "2023-10-28 07:54:46"
+    },
+    {
+      "email": "dragonite@mail.com",
+      "password": "$2a$10$xQwMdXnBBnBLSGc1lDabyOCzciXbPkvGPYXVrzdvqCCrJrSP.ghPq",
+      "username": "快龍",
+      "gender": "female",
+      "user_birth": "2023-09-13",
+      "user_avatar": "userURL",
+      "created_at": "2023-10-28 13:25:31",
+      "modified_time": "2023-10-28 13:25:31",
+      "isExist": "Y",
+      "id": 7
     }
   ],
   "kids": [
