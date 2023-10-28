@@ -1,15 +1,16 @@
 const url = 'https://cgwweb.onrender.com';
 // const url = 'http://localhost:3000';
 let token = '';
-let signupInfo =     {
-      email: "pikachu@mail.com",
-      username: "皮卡丘",
-      password: "wda@123",
-      gender: "female",
-      user_birth: "2023-09-13",
-      user_avatar: "userURL",
-      created_at: getDatetime()
-    }
+// let signupInfo =     {
+//       email: "pikachu@mail.com",
+//       username: "皮卡丘",
+//       password: "wda@123",
+//       gender: "female",
+//       user_birth: "2023-09-13",
+//       user_avatar: "userURL",
+//       created_at: getDatetime(),
+//       "isExist": "Y"
+//     }
 // let loginInfo =     {
 //       email: "pikachu@mail.com",
 //       password: "wda@123",
@@ -27,6 +28,8 @@ let recentSleepTime;
 let sleepTimeByMonth;
 let foodRecordsByMonth;
 let monthlyRecords;
+let testData;
+let signupData;
 
 function getDatetime(){
   const now = new Date();

@@ -1,7 +1,8 @@
-function apiGET(query){
-    axios.get(`${url}${query}`)
+function apiGET(route='/kids/1'){
+    axios.get(`${url}${route}`)
   .then(function (response){
     console.log(response.data);
+    testData = response.data;
   })
   .catch(function (error){
     console.log(error.response);
@@ -15,49 +16,6 @@ function getKids(){
   })
 }
 
-
-
-function signup(){
-  axios.post(`${url}/signup`,signupInfo)
-  .then(function (response){
-    console.log(response.data);
-  })
-  .catch(function (error){
-    console.log(error.response);
-  })
-}
-
-function login(email='Charizard@mail.com',password='wda@123'){
-  axios.post(`${url}/login`,{
-    email:email,
-    password:password
-  })
-  .then(function (response){
-    token = response.data.accessToken;
-    updateInfo.id = response.data.user.id;
-    console.log(response.data);
-    getUserInfo();
-
-  })
-  .catch(function (error){
-    console.log(error.response);
-  })
-}
-
-function updatePassword(){
-  axios.patch(`${url}/600/users/${updateInfo.id.toString()}`,updateInfo,{
-    headers:{
-      "authorization":`Bearer ${token}`
-    }
-  })
-  .then(function (response){
-    token = response.data.accessToken;
-    console.log(response.data); 
-  })
-  .catch(function (error){
-    console.log(error.response);
-  })
-}
 function getUserInfo(){
   // login();
   axios.get(`${url}/600/users/${updateInfo.id.toString()}?_embed=kids`,{
