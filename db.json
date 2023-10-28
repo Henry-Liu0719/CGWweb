@@ -102,7 +102,7 @@
       "mom_height": 999,
       "dad_height": 999,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-17",
+      "modified_time": "2023-09-17 14:15:30",
       "created_at": "2023-03-17 14:15:30"
     },
     {
@@ -116,7 +116,7 @@
       "mom_height": 162,
       "dad_height": 170,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-18",
+      "modified_time": "2023-09-18 14:15:30",
       "created_at": "2023-03-18 11:30:22"
     },
     {
@@ -130,7 +130,7 @@
       "mom_height": 160,
       "dad_height": 172,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-19",
+      "modified_time": "2023-09-19 14:15:30",
       "created_at": "2023-03-19 09:22:18"
     },
     {
@@ -144,7 +144,7 @@
       "mom_height": 159,
       "dad_height": 173,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-20",
+      "modified_time": "2023-09-20 14:15:30",
       "created_at": "2023-03-20 16:59:57"
     },
     {
@@ -158,7 +158,7 @@
       "mom_height": 158,
       "dad_height": 174,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-21",
+      "modified_time": "2023-09-21 14:15:30",
       "created_at": "2023-03-21 14:10:42"
     },
     {
@@ -172,7 +172,7 @@
       "mom_height": 157,
       "dad_height": 175,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-22",
+      "modified_time": "2023-09-22 14:15:30",
       "created_at": "2023-03-22 10:48:39"
     },
     {
@@ -186,7 +186,7 @@
       "mom_height": 156,
       "dad_height": 176,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-23",
+      "modified_time": "2023-09-23 14:15:30",
       "created_at": "2023-03-23 13:27:15"
     },
     {
@@ -200,11 +200,11 @@
       "mom_height": 155,
       "dad_height": 177,
       "kid_avatar": "kidURL",
-      "last_height_date": "2023-09-24",
+      "modified_time": "2023-09-24 14:15:30",
       "created_at": "2023-03-24 08:15:34"
     }
   ],
-  "daily_records": [
+  "sleep_records": [
     {
       "id": 1,
       "kidId": 1,
@@ -1799,7 +1799,7 @@
   "breakfast_records": [
     {
       "id": 1,
-      "daily_recordId": 1,
+      "sleep_recordId": 1,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-24",
@@ -1810,7 +1810,7 @@
     },
     {
       "id": 2,
-      "daily_recordId": 2,
+      "sleep_recordId": 2,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-25",
@@ -1821,7 +1821,7 @@
     },
     {
       "id": 3,
-      "daily_recordId": 3,
+      "sleep_recordId": 3,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-26",
@@ -1832,7 +1832,7 @@
     },
     {
       "id": 4,
-      "daily_recordId": 4,
+      "sleep_recordId": 4,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-27",
@@ -1843,7 +1843,7 @@
     },
     {
       "id": 5,
-      "daily_recordId": 5,
+      "sleep_recordId": 5,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-28",
@@ -1854,7 +1854,7 @@
     },
     {
       "id": 6,
-      "daily_recordId": 6,
+      "sleep_recordId": 6,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-29",
@@ -1865,7 +1865,7 @@
     },
     {
       "id": 7,
-      "daily_recordId": 7,
+      "sleep_recordId": 7,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-30",
@@ -1876,7 +1876,7 @@
     },
     {
       "id": 8,
-      "daily_recordId": 8,
+      "sleep_recordId": 8,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-01",
@@ -1887,7 +1887,7 @@
     },
     {
       "id": 9,
-      "daily_recordId": 9,
+      "sleep_recordId": 9,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-02",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": 10,
-      "daily_recordId": 10,
+      "sleep_recordId": 10,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-03",
@@ -1909,7 +1909,7 @@
     },
     {
       "id": 11,
-      "daily_recordId": 11,
+      "sleep_recordId": 11,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-04",
@@ -1920,7 +1920,7 @@
     },
     {
       "id": 12,
-      "daily_recordId": 12,
+      "sleep_recordId": 12,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-05",
@@ -1931,7 +1931,7 @@
     },
     {
       "id": 13,
-      "daily_recordId": 13,
+      "sleep_recordId": 13,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-06",
@@ -1942,7 +1942,7 @@
     },
     {
       "id": 14,
-      "daily_recordId": 14,
+      "sleep_recordId": 14,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-07",
@@ -1953,7 +1953,7 @@
     },
     {
       "id": 15,
-      "daily_recordId": 15,
+      "sleep_recordId": 15,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-08",
@@ -1964,7 +1964,7 @@
     },
     {
       "id": 16,
-      "daily_recordId": 16,
+      "sleep_recordId": 16,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-09",
@@ -1975,7 +1975,7 @@
     },
     {
       "id": 17,
-      "daily_recordId": 17,
+      "sleep_recordId": 17,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-10",
@@ -1986,7 +1986,7 @@
     },
     {
       "id": 18,
-      "daily_recordId": 18,
+      "sleep_recordId": 18,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-11",
@@ -1997,7 +1997,7 @@
     },
     {
       "id": 19,
-      "daily_recordId": 19,
+      "sleep_recordId": 19,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-12",
@@ -2008,7 +2008,7 @@
     },
     {
       "id": 20,
-      "daily_recordId": 20,
+      "sleep_recordId": 20,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-13",
@@ -2019,7 +2019,7 @@
     },
     {
       "id": 21,
-      "daily_recordId": 21,
+      "sleep_recordId": 21,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-14",
@@ -2030,7 +2030,7 @@
     },
     {
       "id": 22,
-      "daily_recordId": 22,
+      "sleep_recordId": 22,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-15",
@@ -2041,7 +2041,7 @@
     },
     {
       "id": 23,
-      "daily_recordId": 23,
+      "sleep_recordId": 23,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-16",
@@ -2052,7 +2052,7 @@
     },
     {
       "id": 24,
-      "daily_recordId": 24,
+      "sleep_recordId": 24,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-17",
@@ -2063,7 +2063,7 @@
     },
     {
       "id": 25,
-      "daily_recordId": 25,
+      "sleep_recordId": 25,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-18",
@@ -2074,7 +2074,7 @@
     },
     {
       "id": 26,
-      "daily_recordId": 26,
+      "sleep_recordId": 26,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-19",
@@ -2085,7 +2085,7 @@
     },
     {
       "id": 27,
-      "daily_recordId": 27,
+      "sleep_recordId": 27,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-20",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": 28,
-      "daily_recordId": 28,
+      "sleep_recordId": 28,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-21",
@@ -2107,7 +2107,7 @@
     },
     {
       "id": 29,
-      "daily_recordId": 29,
+      "sleep_recordId": 29,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-22",
@@ -2118,7 +2118,7 @@
     },
     {
       "id": 30,
-      "daily_recordId": 30,
+      "sleep_recordId": 30,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-23",
@@ -2129,7 +2129,7 @@
     },
     {
       "id": 31,
-      "daily_recordId": 31,
+      "sleep_recordId": 31,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-24",
@@ -2140,7 +2140,7 @@
     },
     {
       "id": 32,
-      "daily_recordId": 32,
+      "sleep_recordId": 32,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-25",
@@ -2151,7 +2151,7 @@
     },
     {
       "id": 33,
-      "daily_recordId": 33,
+      "sleep_recordId": 33,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-26",
@@ -2162,7 +2162,7 @@
     },
     {
       "id": 34,
-      "daily_recordId": 34,
+      "sleep_recordId": 34,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-27",
@@ -2173,7 +2173,7 @@
     },
     {
       "id": 35,
-      "daily_recordId": 35,
+      "sleep_recordId": 35,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-28",
@@ -2184,7 +2184,7 @@
     },
     {
       "id": 36,
-      "daily_recordId": 36,
+      "sleep_recordId": 36,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-29",
@@ -2195,7 +2195,7 @@
     },
     {
       "id": 37,
-      "daily_recordId": 37,
+      "sleep_recordId": 37,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-30",
@@ -2206,7 +2206,7 @@
     },
     {
       "id": 38,
-      "daily_recordId": 38,
+      "sleep_recordId": 38,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-31",
@@ -2217,7 +2217,7 @@
     },
     {
       "id": 39,
-      "daily_recordId": 39,
+      "sleep_recordId": 39,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-01",
@@ -2228,7 +2228,7 @@
     },
     {
       "id": 40,
-      "daily_recordId": 40,
+      "sleep_recordId": 40,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-02",
@@ -2239,7 +2239,7 @@
     },
     {
       "id": 41,
-      "daily_recordId": 41,
+      "sleep_recordId": 41,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-03",
@@ -2250,7 +2250,7 @@
     },
     {
       "id": 42,
-      "daily_recordId": 42,
+      "sleep_recordId": 42,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-04",
@@ -2261,7 +2261,7 @@
     },
     {
       "id": 43,
-      "daily_recordId": 43,
+      "sleep_recordId": 43,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-05",
@@ -2272,7 +2272,7 @@
     },
     {
       "id": 44,
-      "daily_recordId": 44,
+      "sleep_recordId": 44,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-06",
@@ -2283,7 +2283,7 @@
     },
     {
       "id": 45,
-      "daily_recordId": 45,
+      "sleep_recordId": 45,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-07",
@@ -2294,7 +2294,7 @@
     },
     {
       "id": 46,
-      "daily_recordId": 46,
+      "sleep_recordId": 46,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-08",
@@ -2305,7 +2305,7 @@
     },
     {
       "id": 47,
-      "daily_recordId": 47,
+      "sleep_recordId": 47,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-09",
@@ -2316,7 +2316,7 @@
     },
     {
       "id": 48,
-      "daily_recordId": 48,
+      "sleep_recordId": 48,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-10",
@@ -2327,7 +2327,7 @@
     },
     {
       "id": 49,
-      "daily_recordId": 49,
+      "sleep_recordId": 49,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-11",
@@ -2338,7 +2338,7 @@
     },
     {
       "id": 50,
-      "daily_recordId": 50,
+      "sleep_recordId": 50,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-12",
@@ -2349,7 +2349,7 @@
     },
     {
       "id": 51,
-      "daily_recordId": 51,
+      "sleep_recordId": 51,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-13",
@@ -2360,7 +2360,7 @@
     },
     {
       "id": 52,
-      "daily_recordId": 52,
+      "sleep_recordId": 52,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-14",
@@ -2371,7 +2371,7 @@
     },
     {
       "id": 53,
-      "daily_recordId": 53,
+      "sleep_recordId": 53,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-15",
@@ -2382,7 +2382,7 @@
     },
     {
       "id": 54,
-      "daily_recordId": 54,
+      "sleep_recordId": 54,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2392,7 +2392,7 @@
     },
     {
       "id": 55,
-      "daily_recordId": 55,
+      "sleep_recordId": 55,
       "kidId": 2,
       "userId": 2,
       "content": "吐司、柳橙汁",
@@ -2402,7 +2402,7 @@
     },
     {
       "id": 56,
-      "daily_recordId": 56,
+      "sleep_recordId": 56,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2412,7 +2412,7 @@
     },
     {
       "id": 57,
-      "daily_recordId": 57,
+      "sleep_recordId": 57,
       "kidId": 2,
       "userId": 2,
       "content": "煎蛋、牛奶",
@@ -2422,7 +2422,7 @@
     },
     {
       "id": 58,
-      "daily_recordId": 58,
+      "sleep_recordId": 58,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -2432,7 +2432,7 @@
     },
     {
       "id": 59,
-      "daily_recordId": 59,
+      "sleep_recordId": 59,
       "kidId": 2,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -2442,7 +2442,7 @@
     },
     {
       "id": 60,
-      "daily_recordId": 60,
+      "sleep_recordId": 60,
       "kidId": 2,
       "userId": 2,
       "content": "炒麵、奶茶",
@@ -2452,7 +2452,7 @@
     },
     {
       "id": 61,
-      "daily_recordId": 61,
+      "sleep_recordId": 61,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -2462,7 +2462,7 @@
     },
     {
       "id": 62,
-      "daily_recordId": 62,
+      "sleep_recordId": 62,
       "kidId": 2,
       "userId": 2,
       "content": "沙拉、果汁",
@@ -2472,7 +2472,7 @@
     },
     {
       "id": 63,
-      "daily_recordId": 63,
+      "sleep_recordId": 63,
       "kidId": 2,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -2482,7 +2482,7 @@
     },
     {
       "id": 64,
-      "daily_recordId": 64,
+      "sleep_recordId": 64,
       "kidId": 2,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -2492,7 +2492,7 @@
     },
     {
       "id": 65,
-      "daily_recordId": 65,
+      "sleep_recordId": 65,
       "kidId": 2,
       "userId": 2,
       "content": "玉米蛋餅、豆漿",
@@ -2502,7 +2502,7 @@
     },
     {
       "id": 66,
-      "daily_recordId": 66,
+      "sleep_recordId": 66,
       "kidId": 2,
       "userId": 2,
       "content": "火腿三明治、鮮奶",
@@ -2512,7 +2512,7 @@
     },
     {
       "id": 67,
-      "daily_recordId": 67,
+      "sleep_recordId": 67,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -2522,7 +2522,7 @@
     },
     {
       "id": 68,
-      "daily_recordId": 68,
+      "sleep_recordId": 68,
       "kidId": 2,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -2532,7 +2532,7 @@
     },
     {
       "id": 69,
-      "daily_recordId": 69,
+      "sleep_recordId": 69,
       "kidId": 2,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -2542,7 +2542,7 @@
     },
     {
       "id": 70,
-      "daily_recordId": 70,
+      "sleep_recordId": 70,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2552,7 +2552,7 @@
     },
     {
       "id": 71,
-      "daily_recordId": 71,
+      "sleep_recordId": 71,
       "kidId": 2,
       "userId": 2,
       "content": "煎餃、紅茶",
@@ -2562,7 +2562,7 @@
     },
     {
       "id": 72,
-      "daily_recordId": 72,
+      "sleep_recordId": 72,
       "kidId": 2,
       "userId": 2,
       "content": "煎蛋、牛奶",
@@ -2572,7 +2572,7 @@
     },
     {
       "id": 73,
-      "daily_recordId": 73,
+      "sleep_recordId": 73,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2582,7 +2582,7 @@
     },
     {
       "id": 74,
-      "daily_recordId": 74,
+      "sleep_recordId": 74,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥粥、蘋果汁",
@@ -2592,7 +2592,7 @@
     },
     {
       "id": 75,
-      "daily_recordId": 75,
+      "sleep_recordId": 75,
       "kidId": 2,
       "userId": 2,
       "content": "火腿三明治、鮮奶",
@@ -2602,7 +2602,7 @@
     },
     {
       "id": 76,
-      "daily_recordId": 76,
+      "sleep_recordId": 76,
       "kidId": 2,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -2612,7 +2612,7 @@
     },
     {
       "id": 77,
-      "daily_recordId": 77,
+      "sleep_recordId": 77,
       "kidId": 2,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -2622,7 +2622,7 @@
     },
     {
       "id": 78,
-      "daily_recordId": 78,
+      "sleep_recordId": 78,
       "kidId": 2,
       "userId": 2,
       "content": "炒麵、奶茶",
@@ -2632,7 +2632,7 @@
     },
     {
       "id": 79,
-      "daily_recordId": 79,
+      "sleep_recordId": 79,
       "kidId": 2,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -2642,7 +2642,7 @@
     },
     {
       "id": 80,
-      "daily_recordId": 80,
+      "sleep_recordId": 80,
       "kidId": 2,
       "userId": 2,
       "content": "三明治、冰淇淋",
@@ -2652,7 +2652,7 @@
     },
     {
       "id": 81,
-      "daily_recordId": 81,
+      "sleep_recordId": 81,
       "kidId": 2,
       "userId": 2,
       "content": "吐司、柳橙汁",
@@ -2662,7 +2662,7 @@
     },
     {
       "id": 82,
-      "daily_recordId": 82,
+      "sleep_recordId": 82,
       "kidId": 2,
       "userId": 2,
       "content": "豆腐腸粉、豆漿",
@@ -2672,7 +2672,7 @@
     },
     {
       "id": 83,
-      "daily_recordId": 83,
+      "sleep_recordId": 83,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2682,7 +2682,7 @@
     },
     {
       "id": 84,
-      "daily_recordId": 84,
+      "sleep_recordId": 84,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥粥、蘋果汁",
@@ -2692,7 +2692,7 @@
     },
     {
       "id": 85,
-      "daily_recordId": 85,
+      "sleep_recordId": 85,
       "kidId": 2,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -2702,7 +2702,7 @@
     },
     {
       "id": 86,
-      "daily_recordId": 86,
+      "sleep_recordId": 86,
       "kidId": 2,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -2712,7 +2712,7 @@
     },
     {
       "id": 87,
-      "daily_recordId": 87,
+      "sleep_recordId": 87,
       "kidId": 2,
       "userId": 2,
       "content": "煎餃、紅茶",
@@ -2722,7 +2722,7 @@
     },
     {
       "id": 88,
-      "daily_recordId": 88,
+      "sleep_recordId": 88,
       "kidId": 2,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -2732,7 +2732,7 @@
     },
     {
       "id": 89,
-      "daily_recordId": 89,
+      "sleep_recordId": 89,
       "kidId": 2,
       "userId": 2,
       "content": "吐司、柳橙汁",
@@ -2742,7 +2742,7 @@
     },
     {
       "id": 90,
-      "daily_recordId": 90,
+      "sleep_recordId": 90,
       "kidId": 2,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -2752,7 +2752,7 @@
     },
     {
       "id": 91,
-      "daily_recordId": 91,
+      "sleep_recordId": 91,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2762,7 +2762,7 @@
     },
     {
       "id": 92,
-      "daily_recordId": 92,
+      "sleep_recordId": 92,
       "kidId": 2,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -2772,7 +2772,7 @@
     },
     {
       "id": 93,
-      "daily_recordId": 93,
+      "sleep_recordId": 93,
       "kidId": 2,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -2782,7 +2782,7 @@
     },
     {
       "id": 94,
-      "daily_recordId": 94,
+      "sleep_recordId": 94,
       "kidId": 2,
       "userId": 2,
       "content": "沙拉、果汁",
@@ -2792,7 +2792,7 @@
     },
     {
       "id": 95,
-      "daily_recordId": 95,
+      "sleep_recordId": 95,
       "kidId": 2,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -2802,7 +2802,7 @@
     },
     {
       "id": 96,
-      "daily_recordId": 96,
+      "sleep_recordId": 96,
       "kidId": 2,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -2812,7 +2812,7 @@
     },
     {
       "id": 97,
-      "daily_recordId": 97,
+      "sleep_recordId": 97,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥粥、蘋果汁",
@@ -2822,7 +2822,7 @@
     },
     {
       "id": 98,
-      "daily_recordId": 98,
+      "sleep_recordId": 98,
       "kidId": 2,
       "userId": 2,
       "content": "炒麵、奶茶",
@@ -2832,7 +2832,7 @@
     },
     {
       "id": 99,
-      "daily_recordId": 99,
+      "sleep_recordId": 99,
       "kidId": 2,
       "userId": 2,
       "content": "火腿三明治、鮮奶",
@@ -2842,7 +2842,7 @@
     },
     {
       "id": 100,
-      "daily_recordId": 100,
+      "sleep_recordId": 100,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -2852,7 +2852,7 @@
     },
     {
       "id": 101,
-      "daily_recordId": 101,
+      "sleep_recordId": 101,
       "kidId": 2,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -2862,7 +2862,7 @@
     },
     {
       "id": 102,
-      "daily_recordId": 102,
+      "sleep_recordId": 102,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥粥、蘋果汁",
@@ -2872,7 +2872,7 @@
     },
     {
       "id": 103,
-      "daily_recordId": 103,
+      "sleep_recordId": 103,
       "kidId": 2,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -2882,7 +2882,7 @@
     },
     {
       "id": 104,
-      "daily_recordId": 104,
+      "sleep_recordId": 104,
       "kidId": 2,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -2892,7 +2892,7 @@
     },
     {
       "id": 105,
-      "daily_recordId": 105,
+      "sleep_recordId": 105,
       "kidId": 2,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -2902,7 +2902,7 @@
     },
     {
       "id": 106,
-      "daily_recordId": 106,
+      "sleep_recordId": 106,
       "kidId": 2,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -2912,7 +2912,7 @@
     },
     {
       "id": 107,
-      "daily_recordId": 107,
+      "sleep_recordId": 107,
       "kidId": 3,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -2922,7 +2922,7 @@
     },
     {
       "id": 108,
-      "daily_recordId": 108,
+      "sleep_recordId": 108,
       "kidId": 3,
       "userId": 2,
       "content": "酸奶、水果沙拉",
@@ -2932,7 +2932,7 @@
     },
     {
       "id": 109,
-      "daily_recordId": 109,
+      "sleep_recordId": 109,
       "kidId": 3,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -2942,7 +2942,7 @@
     },
     {
       "id": 110,
-      "daily_recordId": 110,
+      "sleep_recordId": 110,
       "kidId": 3,
       "userId": 2,
       "content": "豆腐腸粉、豆漿",
@@ -2952,7 +2952,7 @@
     },
     {
       "id": 111,
-      "daily_recordId": 111,
+      "sleep_recordId": 111,
       "kidId": 3,
       "userId": 2,
       "content": "玉米蛋餅、豆漿",
@@ -2962,7 +2962,7 @@
     },
     {
       "id": 112,
-      "daily_recordId": 112,
+      "sleep_recordId": 112,
       "kidId": 3,
       "userId": 2,
       "content": "煎餃、紅茶",
@@ -2972,7 +2972,7 @@
     },
     {
       "id": 113,
-      "daily_recordId": 113,
+      "sleep_recordId": 113,
       "kidId": 3,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -2982,7 +2982,7 @@
     },
     {
       "id": 114,
-      "daily_recordId": 114,
+      "sleep_recordId": 114,
       "kidId": 3,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -2992,7 +2992,7 @@
     },
     {
       "id": 115,
-      "daily_recordId": 115,
+      "sleep_recordId": 115,
       "kidId": 3,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -3002,7 +3002,7 @@
     },
     {
       "id": 116,
-      "daily_recordId": 116,
+      "sleep_recordId": 116,
       "kidId": 3,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -3012,7 +3012,7 @@
     },
     {
       "id": 117,
-      "daily_recordId": 117,
+      "sleep_recordId": 117,
       "kidId": 3,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -3022,7 +3022,7 @@
     },
     {
       "id": 118,
-      "daily_recordId": 118,
+      "sleep_recordId": 118,
       "kidId": 3,
       "userId": 2,
       "content": "燕麥粥、蘋果汁",
@@ -3032,7 +3032,7 @@
     },
     {
       "id": 119,
-      "daily_recordId": 119,
+      "sleep_recordId": 119,
       "kidId": 3,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -3042,7 +3042,7 @@
     },
     {
       "id": 120,
-      "daily_recordId": 120,
+      "sleep_recordId": 120,
       "kidId": 3,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -3052,7 +3052,7 @@
     },
     {
       "id": 121,
-      "daily_recordId": 121,
+      "sleep_recordId": 121,
       "kidId": 3,
       "userId": 2,
       "content": "煎蛋、牛奶",
@@ -3062,7 +3062,7 @@
     },
     {
       "id": 122,
-      "daily_recordId": 122,
+      "sleep_recordId": 122,
       "kidId": 3,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -3072,7 +3072,7 @@
     },
     {
       "id": 123,
-      "daily_recordId": 123,
+      "sleep_recordId": 123,
       "kidId": 3,
       "userId": 2,
       "content": "三明治、冰淇淋",
@@ -3082,7 +3082,7 @@
     },
     {
       "id": 124,
-      "daily_recordId": 124,
+      "sleep_recordId": 124,
       "kidId": 3,
       "userId": 2,
       "content": "三明治、冰淇淋",
@@ -3092,7 +3092,7 @@
     },
     {
       "id": 125,
-      "daily_recordId": 125,
+      "sleep_recordId": 125,
       "kidId": 3,
       "userId": 2,
       "content": "煎餃、紅茶",
@@ -3102,7 +3102,7 @@
     },
     {
       "id": 126,
-      "daily_recordId": 126,
+      "sleep_recordId": 126,
       "kidId": 3,
       "userId": 2,
       "content": "炒麵、奶茶",
@@ -3112,7 +3112,7 @@
     },
     {
       "id": 127,
-      "daily_recordId": 127,
+      "sleep_recordId": 127,
       "kidId": 3,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -3122,7 +3122,7 @@
     },
     {
       "id": 128,
-      "daily_recordId": 128,
+      "sleep_recordId": 128,
       "kidId": 3,
       "userId": 2,
       "content": "玉米蛋餅、豆漿",
@@ -3132,7 +3132,7 @@
     },
     {
       "id": 129,
-      "daily_recordId": 129,
+      "sleep_recordId": 129,
       "kidId": 3,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -3142,7 +3142,7 @@
     },
     {
       "id": 130,
-      "daily_recordId": 130,
+      "sleep_recordId": 130,
       "kidId": 3,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -3152,7 +3152,7 @@
     },
     {
       "id": 131,
-      "daily_recordId": 131,
+      "sleep_recordId": 131,
       "kidId": 3,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -3162,7 +3162,7 @@
     },
     {
       "id": 132,
-      "daily_recordId": 132,
+      "sleep_recordId": 132,
       "kidId": 3,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -3172,7 +3172,7 @@
     },
     {
       "id": 133,
-      "daily_recordId": 133,
+      "sleep_recordId": 133,
       "kidId": 3,
       "userId": 2,
       "content": "炒麵、奶茶",
@@ -3182,7 +3182,7 @@
     },
     {
       "id": 134,
-      "daily_recordId": 134,
+      "sleep_recordId": 134,
       "kidId": 3,
       "userId": 2,
       "content": "吐司、柳橙汁",
@@ -3192,7 +3192,7 @@
     },
     {
       "id": 135,
-      "daily_recordId": 135,
+      "sleep_recordId": 135,
       "kidId": 3,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -3202,7 +3202,7 @@
     },
     {
       "id": 136,
-      "daily_recordId": 136,
+      "sleep_recordId": 136,
       "kidId": 3,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -3212,7 +3212,7 @@
     },
     {
       "id": 137,
-      "daily_recordId": 137,
+      "sleep_recordId": 137,
       "kidId": 3,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -3222,7 +3222,7 @@
     },
     {
       "id": 138,
-      "daily_recordId": 138,
+      "sleep_recordId": 138,
       "kidId": 3,
       "userId": 2,
       "content": "火腿三明治、鮮奶",
@@ -3232,7 +3232,7 @@
     },
     {
       "id": 139,
-      "daily_recordId": 139,
+      "sleep_recordId": 139,
       "kidId": 3,
       "userId": 2,
       "content": "鬆餅、楓糖漿",
@@ -3242,7 +3242,7 @@
     },
     {
       "id": 140,
-      "daily_recordId": 140,
+      "sleep_recordId": 140,
       "kidId": 3,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -3252,7 +3252,7 @@
     },
     {
       "id": 141,
-      "daily_recordId": 141,
+      "sleep_recordId": 141,
       "kidId": 3,
       "userId": 2,
       "content": "漢堡、可樂",
@@ -3262,7 +3262,7 @@
     },
     {
       "id": 142,
-      "daily_recordId": 142,
+      "sleep_recordId": 142,
       "kidId": 3,
       "userId": 2,
       "content": "魚排、綠茶",
@@ -3272,7 +3272,7 @@
     },
     {
       "id": 143,
-      "daily_recordId": 143,
+      "sleep_recordId": 143,
       "kidId": 3,
       "userId": 2,
       "content": "煎蛋、牛奶",
@@ -3282,7 +3282,7 @@
     },
     {
       "id": 144,
-      "daily_recordId": 144,
+      "sleep_recordId": 144,
       "kidId": 3,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -3292,7 +3292,7 @@
     },
     {
       "id": 145,
-      "daily_recordId": 145,
+      "sleep_recordId": 145,
       "kidId": 3,
       "userId": 2,
       "content": "烤土司、咖啡",
@@ -3302,7 +3302,7 @@
     },
     {
       "id": 146,
-      "daily_recordId": 146,
+      "sleep_recordId": 146,
       "kidId": 3,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -3312,7 +3312,7 @@
     },
     {
       "id": 147,
-      "daily_recordId": 147,
+      "sleep_recordId": 147,
       "kidId": 3,
       "userId": 2,
       "content": "培根蛋餅、咖啡",
@@ -3322,7 +3322,7 @@
     },
     {
       "id": 148,
-      "daily_recordId": 148,
+      "sleep_recordId": 148,
       "kidId": 3,
       "userId": 2,
       "content": "吐司、柳橙汁",
@@ -3332,7 +3332,7 @@
     },
     {
       "id": 149,
-      "daily_recordId": 149,
+      "sleep_recordId": 149,
       "kidId": 3,
       "userId": 2,
       "content": "三明治、冰淇淋",
@@ -3342,7 +3342,7 @@
     },
     {
       "id": 150,
-      "daily_recordId": 150,
+      "sleep_recordId": 150,
       "kidId": 3,
       "userId": 2,
       "content": "豆腐腸粉、豆漿",
@@ -3352,7 +3352,7 @@
     },
     {
       "id": 151,
-      "daily_recordId": 151,
+      "sleep_recordId": 151,
       "kidId": 3,
       "userId": 2,
       "content": "水煮蛋、牛奶",
@@ -3362,7 +3362,7 @@
     },
     {
       "id": 152,
-      "daily_recordId": 152,
+      "sleep_recordId": 152,
       "kidId": 3,
       "userId": 2,
       "content": "酸奶、水果沙拉",
@@ -3372,7 +3372,7 @@
     },
     {
       "id": 153,
-      "daily_recordId": 153,
+      "sleep_recordId": 153,
       "kidId": 3,
       "userId": 2,
       "content": "沙拉、果汁",
@@ -3382,7 +3382,7 @@
     },
     {
       "id": 154,
-      "daily_recordId": 154,
+      "sleep_recordId": 154,
       "kidId": 3,
       "userId": 2,
       "content": "酸奶、水果沙拉",
@@ -3392,7 +3392,7 @@
     },
     {
       "id": 155,
-      "daily_recordId": 155,
+      "sleep_recordId": 155,
       "kidId": 3,
       "userId": 2,
       "content": "法式吐司、柳橙汁",
@@ -3402,7 +3402,7 @@
     },
     {
       "id": 156,
-      "daily_recordId": 156,
+      "sleep_recordId": 156,
       "kidId": 3,
       "userId": 2,
       "content": "牛奶、鳳梨酥",
@@ -3412,7 +3412,7 @@
     },
     {
       "id": 157,
-      "daily_recordId": 157,
+      "sleep_recordId": 157,
       "kidId": 3,
       "userId": 2,
       "content": "煎餃、紅茶",
@@ -3422,7 +3422,7 @@
     },
     {
       "id": 158,
-      "daily_recordId": 158,
+      "sleep_recordId": 158,
       "kidId": 3,
       "userId": 2,
       "content": "酸奶、水果沙拉",
@@ -3432,7 +3432,7 @@
     },
     {
       "id": 159,
-      "daily_recordId": 159,
+      "sleep_recordId": 159,
       "kidId": 3,
       "userId": 2,
       "content": "燕麥片、葡萄",
@@ -3444,7 +3444,7 @@
   "lunch_records": [
     {
       "id": 1,
-      "daily_recordId": 1,
+      "sleep_recordId": 1,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-24",
@@ -3455,7 +3455,7 @@
     },
     {
       "id": 2,
-      "daily_recordId": 2,
+      "sleep_recordId": 2,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-25",
@@ -3466,7 +3466,7 @@
     },
     {
       "id": 3,
-      "daily_recordId": 3,
+      "sleep_recordId": 3,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-26",
@@ -3477,7 +3477,7 @@
     },
     {
       "id": 4,
-      "daily_recordId": 4,
+      "sleep_recordId": 4,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-27",
@@ -3488,7 +3488,7 @@
     },
     {
       "id": 5,
-      "daily_recordId": 5,
+      "sleep_recordId": 5,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-28",
@@ -3499,7 +3499,7 @@
     },
     {
       "id": 6,
-      "daily_recordId": 6,
+      "sleep_recordId": 6,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-29",
@@ -3510,7 +3510,7 @@
     },
     {
       "id": 7,
-      "daily_recordId": 7,
+      "sleep_recordId": 7,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-30",
@@ -3521,7 +3521,7 @@
     },
     {
       "id": 8,
-      "daily_recordId": 8,
+      "sleep_recordId": 8,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-01",
@@ -3532,7 +3532,7 @@
     },
     {
       "id": 9,
-      "daily_recordId": 9,
+      "sleep_recordId": 9,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-02",
@@ -3543,7 +3543,7 @@
     },
     {
       "id": 10,
-      "daily_recordId": 10,
+      "sleep_recordId": 10,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-03",
@@ -3554,7 +3554,7 @@
     },
     {
       "id": 11,
-      "daily_recordId": 11,
+      "sleep_recordId": 11,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-04",
@@ -3565,7 +3565,7 @@
     },
     {
       "id": 12,
-      "daily_recordId": 12,
+      "sleep_recordId": 12,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-05",
@@ -3576,7 +3576,7 @@
     },
     {
       "id": 13,
-      "daily_recordId": 13,
+      "sleep_recordId": 13,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-06",
@@ -3587,7 +3587,7 @@
     },
     {
       "id": 14,
-      "daily_recordId": 14,
+      "sleep_recordId": 14,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-07",
@@ -3598,7 +3598,7 @@
     },
     {
       "id": 15,
-      "daily_recordId": 15,
+      "sleep_recordId": 15,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-08",
@@ -3609,7 +3609,7 @@
     },
     {
       "id": 16,
-      "daily_recordId": 16,
+      "sleep_recordId": 16,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-09",
@@ -3620,7 +3620,7 @@
     },
     {
       "id": 17,
-      "daily_recordId": 17,
+      "sleep_recordId": 17,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-10",
@@ -3631,7 +3631,7 @@
     },
     {
       "id": 18,
-      "daily_recordId": 18,
+      "sleep_recordId": 18,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-11",
@@ -3642,7 +3642,7 @@
     },
     {
       "id": 19,
-      "daily_recordId": 19,
+      "sleep_recordId": 19,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-12",
@@ -3653,7 +3653,7 @@
     },
     {
       "id": 20,
-      "daily_recordId": 20,
+      "sleep_recordId": 20,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-13",
@@ -3664,7 +3664,7 @@
     },
     {
       "id": 21,
-      "daily_recordId": 21,
+      "sleep_recordId": 21,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-14",
@@ -3675,7 +3675,7 @@
     },
     {
       "id": 22,
-      "daily_recordId": 22,
+      "sleep_recordId": 22,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-15",
@@ -3686,7 +3686,7 @@
     },
     {
       "id": 23,
-      "daily_recordId": 23,
+      "sleep_recordId": 23,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-16",
@@ -3697,7 +3697,7 @@
     },
     {
       "id": 24,
-      "daily_recordId": 24,
+      "sleep_recordId": 24,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-17",
@@ -3708,7 +3708,7 @@
     },
     {
       "id": 25,
-      "daily_recordId": 25,
+      "sleep_recordId": 25,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-18",
@@ -3719,7 +3719,7 @@
     },
     {
       "id": 26,
-      "daily_recordId": 26,
+      "sleep_recordId": 26,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-19",
@@ -3730,7 +3730,7 @@
     },
     {
       "id": 27,
-      "daily_recordId": 27,
+      "sleep_recordId": 27,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-20",
@@ -3741,7 +3741,7 @@
     },
     {
       "id": 28,
-      "daily_recordId": 28,
+      "sleep_recordId": 28,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-21",
@@ -3752,7 +3752,7 @@
     },
     {
       "id": 29,
-      "daily_recordId": 29,
+      "sleep_recordId": 29,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-22",
@@ -3763,7 +3763,7 @@
     },
     {
       "id": 30,
-      "daily_recordId": 30,
+      "sleep_recordId": 30,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-23",
@@ -3774,7 +3774,7 @@
     },
     {
       "id": 31,
-      "daily_recordId": 31,
+      "sleep_recordId": 31,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-24",
@@ -3785,7 +3785,7 @@
     },
     {
       "id": 32,
-      "daily_recordId": 32,
+      "sleep_recordId": 32,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-25",
@@ -3796,7 +3796,7 @@
     },
     {
       "id": 33,
-      "daily_recordId": 33,
+      "sleep_recordId": 33,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-26",
@@ -3807,7 +3807,7 @@
     },
     {
       "id": 34,
-      "daily_recordId": 34,
+      "sleep_recordId": 34,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-27",
@@ -3818,7 +3818,7 @@
     },
     {
       "id": 35,
-      "daily_recordId": 35,
+      "sleep_recordId": 35,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-28",
@@ -3829,7 +3829,7 @@
     },
     {
       "id": 36,
-      "daily_recordId": 36,
+      "sleep_recordId": 36,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-29",
@@ -3840,7 +3840,7 @@
     },
     {
       "id": 37,
-      "daily_recordId": 37,
+      "sleep_recordId": 37,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-30",
@@ -3851,7 +3851,7 @@
     },
     {
       "id": 38,
-      "daily_recordId": 38,
+      "sleep_recordId": 38,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-31",
@@ -3862,7 +3862,7 @@
     },
     {
       "id": 39,
-      "daily_recordId": 39,
+      "sleep_recordId": 39,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-01",
@@ -3873,7 +3873,7 @@
     },
     {
       "id": 40,
-      "daily_recordId": 40,
+      "sleep_recordId": 40,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-02",
@@ -3884,7 +3884,7 @@
     },
     {
       "id": 41,
-      "daily_recordId": 41,
+      "sleep_recordId": 41,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-03",
@@ -3895,7 +3895,7 @@
     },
     {
       "id": 42,
-      "daily_recordId": 42,
+      "sleep_recordId": 42,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-04",
@@ -3906,7 +3906,7 @@
     },
     {
       "id": 43,
-      "daily_recordId": 43,
+      "sleep_recordId": 43,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-05",
@@ -3917,7 +3917,7 @@
     },
     {
       "id": 44,
-      "daily_recordId": 44,
+      "sleep_recordId": 44,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-06",
@@ -3928,7 +3928,7 @@
     },
     {
       "id": 45,
-      "daily_recordId": 45,
+      "sleep_recordId": 45,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-07",
@@ -3939,7 +3939,7 @@
     },
     {
       "id": 46,
-      "daily_recordId": 46,
+      "sleep_recordId": 46,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-08",
@@ -3950,7 +3950,7 @@
     },
     {
       "id": 47,
-      "daily_recordId": 47,
+      "sleep_recordId": 47,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-09",
@@ -3961,7 +3961,7 @@
     },
     {
       "id": 48,
-      "daily_recordId": 48,
+      "sleep_recordId": 48,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-10",
@@ -3972,7 +3972,7 @@
     },
     {
       "id": 49,
-      "daily_recordId": 49,
+      "sleep_recordId": 49,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-11",
@@ -3983,7 +3983,7 @@
     },
     {
       "id": 50,
-      "daily_recordId": 50,
+      "sleep_recordId": 50,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-12",
@@ -3994,7 +3994,7 @@
     },
     {
       "id": 51,
-      "daily_recordId": 51,
+      "sleep_recordId": 51,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-13",
@@ -4005,7 +4005,7 @@
     },
     {
       "id": 52,
-      "daily_recordId": 52,
+      "sleep_recordId": 52,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-14",
@@ -4016,7 +4016,7 @@
     },
     {
       "id": 53,
-      "daily_recordId": 53,
+      "sleep_recordId": 53,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-15",
@@ -4027,7 +4027,7 @@
     },
     {
       "id": 54,
-      "daily_recordId": 54,
+      "sleep_recordId": 54,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-24",
@@ -4038,7 +4038,7 @@
     },
     {
       "id": 55,
-      "daily_recordId": 55,
+      "sleep_recordId": 55,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-25",
@@ -4049,7 +4049,7 @@
     },
     {
       "id": 56,
-      "daily_recordId": 56,
+      "sleep_recordId": 56,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-26",
@@ -4060,7 +4060,7 @@
     },
     {
       "id": 57,
-      "daily_recordId": 57,
+      "sleep_recordId": 57,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-27",
@@ -4071,7 +4071,7 @@
     },
     {
       "id": 58,
-      "daily_recordId": 58,
+      "sleep_recordId": 58,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-28",
@@ -4082,7 +4082,7 @@
     },
     {
       "id": 59,
-      "daily_recordId": 59,
+      "sleep_recordId": 59,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-29",
@@ -4093,7 +4093,7 @@
     },
     {
       "id": 60,
-      "daily_recordId": 60,
+      "sleep_recordId": 60,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-30",
@@ -4104,7 +4104,7 @@
     },
     {
       "id": 61,
-      "daily_recordId": 61,
+      "sleep_recordId": 61,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-01",
@@ -4115,7 +4115,7 @@
     },
     {
       "id": 62,
-      "daily_recordId": 62,
+      "sleep_recordId": 62,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-02",
@@ -4126,7 +4126,7 @@
     },
     {
       "id": 63,
-      "daily_recordId": 63,
+      "sleep_recordId": 63,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-03",
@@ -4137,7 +4137,7 @@
     },
     {
       "id": 64,
-      "daily_recordId": 64,
+      "sleep_recordId": 64,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-04",
@@ -4148,7 +4148,7 @@
     },
     {
       "id": 65,
-      "daily_recordId": 65,
+      "sleep_recordId": 65,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-05",
@@ -4159,7 +4159,7 @@
     },
     {
       "id": 66,
-      "daily_recordId": 66,
+      "sleep_recordId": 66,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-06",
@@ -4170,7 +4170,7 @@
     },
     {
       "id": 67,
-      "daily_recordId": 67,
+      "sleep_recordId": 67,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-07",
@@ -4181,7 +4181,7 @@
     },
     {
       "id": 68,
-      "daily_recordId": 68,
+      "sleep_recordId": 68,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-08",
@@ -4192,7 +4192,7 @@
     },
     {
       "id": 69,
-      "daily_recordId": 69,
+      "sleep_recordId": 69,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-09",
@@ -4203,7 +4203,7 @@
     },
     {
       "id": 70,
-      "daily_recordId": 70,
+      "sleep_recordId": 70,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-10",
@@ -4214,7 +4214,7 @@
     },
     {
       "id": 71,
-      "daily_recordId": 71,
+      "sleep_recordId": 71,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-11",
@@ -4225,7 +4225,7 @@
     },
     {
       "id": 72,
-      "daily_recordId": 72,
+      "sleep_recordId": 72,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-12",
@@ -4236,7 +4236,7 @@
     },
     {
       "id": 73,
-      "daily_recordId": 73,
+      "sleep_recordId": 73,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-13",
@@ -4247,7 +4247,7 @@
     },
     {
       "id": 74,
-      "daily_recordId": 74,
+      "sleep_recordId": 74,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-14",
@@ -4258,7 +4258,7 @@
     },
     {
       "id": 75,
-      "daily_recordId": 75,
+      "sleep_recordId": 75,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-15",
@@ -4269,7 +4269,7 @@
     },
     {
       "id": 76,
-      "daily_recordId": 76,
+      "sleep_recordId": 76,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-16",
@@ -4280,7 +4280,7 @@
     },
     {
       "id": 77,
-      "daily_recordId": 77,
+      "sleep_recordId": 77,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-17",
@@ -4291,7 +4291,7 @@
     },
     {
       "id": 78,
-      "daily_recordId": 78,
+      "sleep_recordId": 78,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-18",
@@ -4302,7 +4302,7 @@
     },
     {
       "id": 79,
-      "daily_recordId": 79,
+      "sleep_recordId": 79,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-19",
@@ -4313,7 +4313,7 @@
     },
     {
       "id": 80,
-      "daily_recordId": 80,
+      "sleep_recordId": 80,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-20",
@@ -4324,7 +4324,7 @@
     },
     {
       "id": 81,
-      "daily_recordId": 81,
+      "sleep_recordId": 81,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-21",
@@ -4335,7 +4335,7 @@
     },
     {
       "id": 82,
-      "daily_recordId": 82,
+      "sleep_recordId": 82,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-22",
@@ -4346,7 +4346,7 @@
     },
     {
       "id": 83,
-      "daily_recordId": 83,
+      "sleep_recordId": 83,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-23",
@@ -4357,7 +4357,7 @@
     },
     {
       "id": 84,
-      "daily_recordId": 84,
+      "sleep_recordId": 84,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-24",
@@ -4368,7 +4368,7 @@
     },
     {
       "id": 85,
-      "daily_recordId": 85,
+      "sleep_recordId": 85,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-25",
@@ -4379,7 +4379,7 @@
     },
     {
       "id": 86,
-      "daily_recordId": 86,
+      "sleep_recordId": 86,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-26",
@@ -4390,7 +4390,7 @@
     },
     {
       "id": 87,
-      "daily_recordId": 87,
+      "sleep_recordId": 87,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-27",
@@ -4401,7 +4401,7 @@
     },
     {
       "id": 88,
-      "daily_recordId": 88,
+      "sleep_recordId": 88,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-28",
@@ -4412,7 +4412,7 @@
     },
     {
       "id": 89,
-      "daily_recordId": 89,
+      "sleep_recordId": 89,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-29",
@@ -4423,7 +4423,7 @@
     },
     {
       "id": 90,
-      "daily_recordId": 90,
+      "sleep_recordId": 90,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-30",
@@ -4434,7 +4434,7 @@
     },
     {
       "id": 91,
-      "daily_recordId": 91,
+      "sleep_recordId": 91,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-31",
@@ -4445,7 +4445,7 @@
     },
     {
       "id": 92,
-      "daily_recordId": 92,
+      "sleep_recordId": 92,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-01",
@@ -4456,7 +4456,7 @@
     },
     {
       "id": 93,
-      "daily_recordId": 93,
+      "sleep_recordId": 93,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-02",
@@ -4467,7 +4467,7 @@
     },
     {
       "id": 94,
-      "daily_recordId": 94,
+      "sleep_recordId": 94,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-03",
@@ -4478,7 +4478,7 @@
     },
     {
       "id": 95,
-      "daily_recordId": 95,
+      "sleep_recordId": 95,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-04",
@@ -4489,7 +4489,7 @@
     },
     {
       "id": 96,
-      "daily_recordId": 96,
+      "sleep_recordId": 96,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-05",
@@ -4500,7 +4500,7 @@
     },
     {
       "id": 97,
-      "daily_recordId": 97,
+      "sleep_recordId": 97,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-06",
@@ -4511,7 +4511,7 @@
     },
     {
       "id": 98,
-      "daily_recordId": 98,
+      "sleep_recordId": 98,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-07",
@@ -4522,7 +4522,7 @@
     },
     {
       "id": 99,
-      "daily_recordId": 99,
+      "sleep_recordId": 99,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-08",
@@ -4533,7 +4533,7 @@
     },
     {
       "id": 100,
-      "daily_recordId": 100,
+      "sleep_recordId": 100,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-09",
@@ -4544,7 +4544,7 @@
     },
     {
       "id": 101,
-      "daily_recordId": 101,
+      "sleep_recordId": 101,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-10",
@@ -4555,7 +4555,7 @@
     },
     {
       "id": 102,
-      "daily_recordId": 102,
+      "sleep_recordId": 102,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-11",
@@ -4566,7 +4566,7 @@
     },
     {
       "id": 103,
-      "daily_recordId": 103,
+      "sleep_recordId": 103,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-12",
@@ -4577,7 +4577,7 @@
     },
     {
       "id": 104,
-      "daily_recordId": 104,
+      "sleep_recordId": 104,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-13",
@@ -4588,7 +4588,7 @@
     },
     {
       "id": 105,
-      "daily_recordId": 105,
+      "sleep_recordId": 105,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-14",
@@ -4599,7 +4599,7 @@
     },
     {
       "id": 106,
-      "daily_recordId": 106,
+      "sleep_recordId": 106,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-15",
@@ -4610,7 +4610,7 @@
     },
     {
       "id": 107,
-      "daily_recordId": 107,
+      "sleep_recordId": 107,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-24",
@@ -4621,7 +4621,7 @@
     },
     {
       "id": 108,
-      "daily_recordId": 108,
+      "sleep_recordId": 108,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-25",
@@ -4632,7 +4632,7 @@
     },
     {
       "id": 109,
-      "daily_recordId": 109,
+      "sleep_recordId": 109,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-26",
@@ -4643,7 +4643,7 @@
     },
     {
       "id": 110,
-      "daily_recordId": 110,
+      "sleep_recordId": 110,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-27",
@@ -4654,7 +4654,7 @@
     },
     {
       "id": 111,
-      "daily_recordId": 111,
+      "sleep_recordId": 111,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-28",
@@ -4665,7 +4665,7 @@
     },
     {
       "id": 112,
-      "daily_recordId": 112,
+      "sleep_recordId": 112,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-29",
@@ -4676,7 +4676,7 @@
     },
     {
       "id": 113,
-      "daily_recordId": 113,
+      "sleep_recordId": 113,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-30",
@@ -4687,7 +4687,7 @@
     },
     {
       "id": 114,
-      "daily_recordId": 114,
+      "sleep_recordId": 114,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-01",
@@ -4698,7 +4698,7 @@
     },
     {
       "id": 115,
-      "daily_recordId": 115,
+      "sleep_recordId": 115,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-02",
@@ -4709,7 +4709,7 @@
     },
     {
       "id": 116,
-      "daily_recordId": 116,
+      "sleep_recordId": 116,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-03",
@@ -4720,7 +4720,7 @@
     },
     {
       "id": 117,
-      "daily_recordId": 117,
+      "sleep_recordId": 117,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-04",
@@ -4731,7 +4731,7 @@
     },
     {
       "id": 118,
-      "daily_recordId": 118,
+      "sleep_recordId": 118,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-05",
@@ -4742,7 +4742,7 @@
     },
     {
       "id": 119,
-      "daily_recordId": 119,
+      "sleep_recordId": 119,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-06",
@@ -4753,7 +4753,7 @@
     },
     {
       "id": 120,
-      "daily_recordId": 120,
+      "sleep_recordId": 120,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-07",
@@ -4764,7 +4764,7 @@
     },
     {
       "id": 121,
-      "daily_recordId": 121,
+      "sleep_recordId": 121,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-08",
@@ -4775,7 +4775,7 @@
     },
     {
       "id": 122,
-      "daily_recordId": 122,
+      "sleep_recordId": 122,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-09",
@@ -4786,7 +4786,7 @@
     },
     {
       "id": 123,
-      "daily_recordId": 123,
+      "sleep_recordId": 123,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-10",
@@ -4797,7 +4797,7 @@
     },
     {
       "id": 124,
-      "daily_recordId": 124,
+      "sleep_recordId": 124,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-11",
@@ -4808,7 +4808,7 @@
     },
     {
       "id": 125,
-      "daily_recordId": 125,
+      "sleep_recordId": 125,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-12",
@@ -4819,7 +4819,7 @@
     },
     {
       "id": 126,
-      "daily_recordId": 126,
+      "sleep_recordId": 126,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-13",
@@ -4830,7 +4830,7 @@
     },
     {
       "id": 127,
-      "daily_recordId": 127,
+      "sleep_recordId": 127,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-14",
@@ -4841,7 +4841,7 @@
     },
     {
       "id": 128,
-      "daily_recordId": 128,
+      "sleep_recordId": 128,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-15",
@@ -4852,7 +4852,7 @@
     },
     {
       "id": 129,
-      "daily_recordId": 129,
+      "sleep_recordId": 129,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-16",
@@ -4863,7 +4863,7 @@
     },
     {
       "id": 130,
-      "daily_recordId": 130,
+      "sleep_recordId": 130,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-17",
@@ -4874,7 +4874,7 @@
     },
     {
       "id": 131,
-      "daily_recordId": 131,
+      "sleep_recordId": 131,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-18",
@@ -4885,7 +4885,7 @@
     },
     {
       "id": 132,
-      "daily_recordId": 132,
+      "sleep_recordId": 132,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-19",
@@ -4896,7 +4896,7 @@
     },
     {
       "id": 133,
-      "daily_recordId": 133,
+      "sleep_recordId": 133,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-20",
@@ -4907,7 +4907,7 @@
     },
     {
       "id": 134,
-      "daily_recordId": 134,
+      "sleep_recordId": 134,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-21",
@@ -4918,7 +4918,7 @@
     },
     {
       "id": 135,
-      "daily_recordId": 135,
+      "sleep_recordId": 135,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-22",
@@ -4929,7 +4929,7 @@
     },
     {
       "id": 136,
-      "daily_recordId": 136,
+      "sleep_recordId": 136,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-23",
@@ -4940,7 +4940,7 @@
     },
     {
       "id": 137,
-      "daily_recordId": 137,
+      "sleep_recordId": 137,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-24",
@@ -4951,7 +4951,7 @@
     },
     {
       "id": 138,
-      "daily_recordId": 138,
+      "sleep_recordId": 138,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-25",
@@ -4962,7 +4962,7 @@
     },
     {
       "id": 139,
-      "daily_recordId": 139,
+      "sleep_recordId": 139,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-26",
@@ -4973,7 +4973,7 @@
     },
     {
       "id": 140,
-      "daily_recordId": 140,
+      "sleep_recordId": 140,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-27",
@@ -4984,7 +4984,7 @@
     },
     {
       "id": 141,
-      "daily_recordId": 141,
+      "sleep_recordId": 141,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-28",
@@ -4995,7 +4995,7 @@
     },
     {
       "id": 142,
-      "daily_recordId": 142,
+      "sleep_recordId": 142,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-29",
@@ -5006,7 +5006,7 @@
     },
     {
       "id": 143,
-      "daily_recordId": 143,
+      "sleep_recordId": 143,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-30",
@@ -5017,7 +5017,7 @@
     },
     {
       "id": 144,
-      "daily_recordId": 144,
+      "sleep_recordId": 144,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-31",
@@ -5028,7 +5028,7 @@
     },
     {
       "id": 145,
-      "daily_recordId": 145,
+      "sleep_recordId": 145,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-01",
@@ -5039,7 +5039,7 @@
     },
     {
       "id": 146,
-      "daily_recordId": 146,
+      "sleep_recordId": 146,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-02",
@@ -5050,7 +5050,7 @@
     },
     {
       "id": 147,
-      "daily_recordId": 147,
+      "sleep_recordId": 147,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-03",
@@ -5061,7 +5061,7 @@
     },
     {
       "id": 148,
-      "daily_recordId": 148,
+      "sleep_recordId": 148,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-04",
@@ -5072,7 +5072,7 @@
     },
     {
       "id": 149,
-      "daily_recordId": 149,
+      "sleep_recordId": 149,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-05",
@@ -5083,7 +5083,7 @@
     },
     {
       "id": 150,
-      "daily_recordId": 150,
+      "sleep_recordId": 150,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-06",
@@ -5094,7 +5094,7 @@
     },
     {
       "id": 151,
-      "daily_recordId": 151,
+      "sleep_recordId": 151,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-07",
@@ -5105,7 +5105,7 @@
     },
     {
       "id": 152,
-      "daily_recordId": 152,
+      "sleep_recordId": 152,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-08",
@@ -5116,7 +5116,7 @@
     },
     {
       "id": 153,
-      "daily_recordId": 153,
+      "sleep_recordId": 153,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-09",
@@ -5127,7 +5127,7 @@
     },
     {
       "id": 154,
-      "daily_recordId": 154,
+      "sleep_recordId": 154,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-10",
@@ -5138,7 +5138,7 @@
     },
     {
       "id": 155,
-      "daily_recordId": 155,
+      "sleep_recordId": 155,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-11",
@@ -5149,7 +5149,7 @@
     },
     {
       "id": 156,
-      "daily_recordId": 156,
+      "sleep_recordId": 156,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-12",
@@ -5160,7 +5160,7 @@
     },
     {
       "id": 157,
-      "daily_recordId": 157,
+      "sleep_recordId": 157,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-13",
@@ -5171,7 +5171,7 @@
     },
     {
       "id": 158,
-      "daily_recordId": 158,
+      "sleep_recordId": 158,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-14",
@@ -5182,7 +5182,7 @@
     },
     {
       "id": 159,
-      "daily_recordId": 159,
+      "sleep_recordId": 159,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-15",
@@ -5195,7 +5195,7 @@
   "dinner_records": [
     {
       "id": 1,
-      "daily_recordId": 1,
+      "sleep_recordId": 1,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-24",
@@ -5206,7 +5206,7 @@
     },
     {
       "id": 2,
-      "daily_recordId": 2,
+      "sleep_recordId": 2,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-25",
@@ -5217,7 +5217,7 @@
     },
     {
       "id": 3,
-      "daily_recordId": 3,
+      "sleep_recordId": 3,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-26",
@@ -5228,7 +5228,7 @@
     },
     {
       "id": 4,
-      "daily_recordId": 4,
+      "sleep_recordId": 4,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-27",
@@ -5239,7 +5239,7 @@
     },
     {
       "id": 5,
-      "daily_recordId": 5,
+      "sleep_recordId": 5,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-28",
@@ -5250,7 +5250,7 @@
     },
     {
       "id": 6,
-      "daily_recordId": 6,
+      "sleep_recordId": 6,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-29",
@@ -5261,7 +5261,7 @@
     },
     {
       "id": 7,
-      "daily_recordId": 7,
+      "sleep_recordId": 7,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-09-30",
@@ -5272,7 +5272,7 @@
     },
     {
       "id": 8,
-      "daily_recordId": 8,
+      "sleep_recordId": 8,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-01",
@@ -5283,7 +5283,7 @@
     },
     {
       "id": 9,
-      "daily_recordId": 9,
+      "sleep_recordId": 9,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-02",
@@ -5294,7 +5294,7 @@
     },
     {
       "id": 10,
-      "daily_recordId": 10,
+      "sleep_recordId": 10,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-03",
@@ -5305,7 +5305,7 @@
     },
     {
       "id": 11,
-      "daily_recordId": 11,
+      "sleep_recordId": 11,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-04",
@@ -5316,7 +5316,7 @@
     },
     {
       "id": 12,
-      "daily_recordId": 12,
+      "sleep_recordId": 12,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-05",
@@ -5327,7 +5327,7 @@
     },
     {
       "id": 13,
-      "daily_recordId": 13,
+      "sleep_recordId": 13,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-06",
@@ -5338,7 +5338,7 @@
     },
     {
       "id": 14,
-      "daily_recordId": 14,
+      "sleep_recordId": 14,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-07",
@@ -5349,7 +5349,7 @@
     },
     {
       "id": 15,
-      "daily_recordId": 15,
+      "sleep_recordId": 15,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-08",
@@ -5360,7 +5360,7 @@
     },
     {
       "id": 16,
-      "daily_recordId": 16,
+      "sleep_recordId": 16,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-09",
@@ -5371,7 +5371,7 @@
     },
     {
       "id": 17,
-      "daily_recordId": 17,
+      "sleep_recordId": 17,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-10",
@@ -5382,7 +5382,7 @@
     },
     {
       "id": 18,
-      "daily_recordId": 18,
+      "sleep_recordId": 18,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-11",
@@ -5393,7 +5393,7 @@
     },
     {
       "id": 19,
-      "daily_recordId": 19,
+      "sleep_recordId": 19,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-12",
@@ -5404,7 +5404,7 @@
     },
     {
       "id": 20,
-      "daily_recordId": 20,
+      "sleep_recordId": 20,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-13",
@@ -5415,7 +5415,7 @@
     },
     {
       "id": 21,
-      "daily_recordId": 21,
+      "sleep_recordId": 21,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-14",
@@ -5426,7 +5426,7 @@
     },
     {
       "id": 22,
-      "daily_recordId": 22,
+      "sleep_recordId": 22,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-15",
@@ -5437,7 +5437,7 @@
     },
     {
       "id": 23,
-      "daily_recordId": 23,
+      "sleep_recordId": 23,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-16",
@@ -5448,7 +5448,7 @@
     },
     {
       "id": 24,
-      "daily_recordId": 24,
+      "sleep_recordId": 24,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-17",
@@ -5459,7 +5459,7 @@
     },
     {
       "id": 25,
-      "daily_recordId": 25,
+      "sleep_recordId": 25,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-18",
@@ -5470,7 +5470,7 @@
     },
     {
       "id": 26,
-      "daily_recordId": 26,
+      "sleep_recordId": 26,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-19",
@@ -5481,7 +5481,7 @@
     },
     {
       "id": 27,
-      "daily_recordId": 27,
+      "sleep_recordId": 27,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-20",
@@ -5492,7 +5492,7 @@
     },
     {
       "id": 28,
-      "daily_recordId": 28,
+      "sleep_recordId": 28,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-21",
@@ -5503,7 +5503,7 @@
     },
     {
       "id": 29,
-      "daily_recordId": 29,
+      "sleep_recordId": 29,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-22",
@@ -5514,7 +5514,7 @@
     },
     {
       "id": 30,
-      "daily_recordId": 30,
+      "sleep_recordId": 30,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-23",
@@ -5525,7 +5525,7 @@
     },
     {
       "id": 31,
-      "daily_recordId": 31,
+      "sleep_recordId": 31,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-24",
@@ -5536,7 +5536,7 @@
     },
     {
       "id": 32,
-      "daily_recordId": 32,
+      "sleep_recordId": 32,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-25",
@@ -5547,7 +5547,7 @@
     },
     {
       "id": 33,
-      "daily_recordId": 33,
+      "sleep_recordId": 33,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-26",
@@ -5558,7 +5558,7 @@
     },
     {
       "id": 34,
-      "daily_recordId": 34,
+      "sleep_recordId": 34,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-27",
@@ -5569,7 +5569,7 @@
     },
     {
       "id": 35,
-      "daily_recordId": 35,
+      "sleep_recordId": 35,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-28",
@@ -5580,7 +5580,7 @@
     },
     {
       "id": 36,
-      "daily_recordId": 36,
+      "sleep_recordId": 36,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-29",
@@ -5591,7 +5591,7 @@
     },
     {
       "id": 37,
-      "daily_recordId": 37,
+      "sleep_recordId": 37,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-30",
@@ -5602,7 +5602,7 @@
     },
     {
       "id": 38,
-      "daily_recordId": 38,
+      "sleep_recordId": 38,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-10-31",
@@ -5613,7 +5613,7 @@
     },
     {
       "id": 39,
-      "daily_recordId": 39,
+      "sleep_recordId": 39,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-01",
@@ -5624,7 +5624,7 @@
     },
     {
       "id": 40,
-      "daily_recordId": 40,
+      "sleep_recordId": 40,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-02",
@@ -5635,7 +5635,7 @@
     },
     {
       "id": 41,
-      "daily_recordId": 41,
+      "sleep_recordId": 41,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-03",
@@ -5646,7 +5646,7 @@
     },
     {
       "id": 42,
-      "daily_recordId": 42,
+      "sleep_recordId": 42,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-04",
@@ -5657,7 +5657,7 @@
     },
     {
       "id": 43,
-      "daily_recordId": 43,
+      "sleep_recordId": 43,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-05",
@@ -5668,7 +5668,7 @@
     },
     {
       "id": 44,
-      "daily_recordId": 44,
+      "sleep_recordId": 44,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-06",
@@ -5679,7 +5679,7 @@
     },
     {
       "id": 45,
-      "daily_recordId": 45,
+      "sleep_recordId": 45,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-07",
@@ -5690,7 +5690,7 @@
     },
     {
       "id": 46,
-      "daily_recordId": 46,
+      "sleep_recordId": 46,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-08",
@@ -5701,7 +5701,7 @@
     },
     {
       "id": 47,
-      "daily_recordId": 47,
+      "sleep_recordId": 47,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-09",
@@ -5712,7 +5712,7 @@
     },
     {
       "id": 48,
-      "daily_recordId": 48,
+      "sleep_recordId": 48,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-10",
@@ -5723,7 +5723,7 @@
     },
     {
       "id": 49,
-      "daily_recordId": 49,
+      "sleep_recordId": 49,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-11",
@@ -5734,7 +5734,7 @@
     },
     {
       "id": 50,
-      "daily_recordId": 50,
+      "sleep_recordId": 50,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-12",
@@ -5745,7 +5745,7 @@
     },
     {
       "id": 51,
-      "daily_recordId": 51,
+      "sleep_recordId": 51,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-13",
@@ -5756,7 +5756,7 @@
     },
     {
       "id": 52,
-      "daily_recordId": 52,
+      "sleep_recordId": 52,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-14",
@@ -5767,7 +5767,7 @@
     },
     {
       "id": 53,
-      "daily_recordId": 53,
+      "sleep_recordId": 53,
       "kidId": 1,
       "userId": 1,
       "record_date": "2023-11-15",
@@ -5778,7 +5778,7 @@
     },
     {
       "id": 54,
-      "daily_recordId": 54,
+      "sleep_recordId": 54,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-24",
@@ -5789,7 +5789,7 @@
     },
     {
       "id": 55,
-      "daily_recordId": 55,
+      "sleep_recordId": 55,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-25",
@@ -5800,7 +5800,7 @@
     },
     {
       "id": 56,
-      "daily_recordId": 56,
+      "sleep_recordId": 56,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-26",
@@ -5811,7 +5811,7 @@
     },
     {
       "id": 57,
-      "daily_recordId": 57,
+      "sleep_recordId": 57,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-27",
@@ -5822,7 +5822,7 @@
     },
     {
       "id": 58,
-      "daily_recordId": 58,
+      "sleep_recordId": 58,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-28",
@@ -5833,7 +5833,7 @@
     },
     {
       "id": 59,
-      "daily_recordId": 59,
+      "sleep_recordId": 59,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-29",
@@ -5844,7 +5844,7 @@
     },
     {
       "id": 60,
-      "daily_recordId": 60,
+      "sleep_recordId": 60,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-09-30",
@@ -5855,7 +5855,7 @@
     },
     {
       "id": 61,
-      "daily_recordId": 61,
+      "sleep_recordId": 61,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-01",
@@ -5866,7 +5866,7 @@
     },
     {
       "id": 62,
-      "daily_recordId": 62,
+      "sleep_recordId": 62,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-02",
@@ -5877,7 +5877,7 @@
     },
     {
       "id": 63,
-      "daily_recordId": 63,
+      "sleep_recordId": 63,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-03",
@@ -5888,7 +5888,7 @@
     },
     {
       "id": 64,
-      "daily_recordId": 64,
+      "sleep_recordId": 64,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-04",
@@ -5899,7 +5899,7 @@
     },
     {
       "id": 65,
-      "daily_recordId": 65,
+      "sleep_recordId": 65,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-05",
@@ -5910,7 +5910,7 @@
     },
     {
       "id": 66,
-      "daily_recordId": 66,
+      "sleep_recordId": 66,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-06",
@@ -5921,7 +5921,7 @@
     },
     {
       "id": 67,
-      "daily_recordId": 67,
+      "sleep_recordId": 67,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-07",
@@ -5932,7 +5932,7 @@
     },
     {
       "id": 68,
-      "daily_recordId": 68,
+      "sleep_recordId": 68,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-08",
@@ -5943,7 +5943,7 @@
     },
     {
       "id": 69,
-      "daily_recordId": 69,
+      "sleep_recordId": 69,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-09",
@@ -5954,7 +5954,7 @@
     },
     {
       "id": 70,
-      "daily_recordId": 70,
+      "sleep_recordId": 70,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-10",
@@ -5965,7 +5965,7 @@
     },
     {
       "id": 71,
-      "daily_recordId": 71,
+      "sleep_recordId": 71,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-11",
@@ -5976,7 +5976,7 @@
     },
     {
       "id": 72,
-      "daily_recordId": 72,
+      "sleep_recordId": 72,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-12",
@@ -5987,7 +5987,7 @@
     },
     {
       "id": 73,
-      "daily_recordId": 73,
+      "sleep_recordId": 73,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-13",
@@ -5998,7 +5998,7 @@
     },
     {
       "id": 74,
-      "daily_recordId": 74,
+      "sleep_recordId": 74,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-14",
@@ -6009,7 +6009,7 @@
     },
     {
       "id": 75,
-      "daily_recordId": 75,
+      "sleep_recordId": 75,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-15",
@@ -6020,7 +6020,7 @@
     },
     {
       "id": 76,
-      "daily_recordId": 76,
+      "sleep_recordId": 76,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-16",
@@ -6031,7 +6031,7 @@
     },
     {
       "id": 77,
-      "daily_recordId": 77,
+      "sleep_recordId": 77,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-17",
@@ -6042,7 +6042,7 @@
     },
     {
       "id": 78,
-      "daily_recordId": 78,
+      "sleep_recordId": 78,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-18",
@@ -6053,7 +6053,7 @@
     },
     {
       "id": 79,
-      "daily_recordId": 79,
+      "sleep_recordId": 79,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-19",
@@ -6064,7 +6064,7 @@
     },
     {
       "id": 80,
-      "daily_recordId": 80,
+      "sleep_recordId": 80,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-20",
@@ -6075,7 +6075,7 @@
     },
     {
       "id": 81,
-      "daily_recordId": 81,
+      "sleep_recordId": 81,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-21",
@@ -6086,7 +6086,7 @@
     },
     {
       "id": 82,
-      "daily_recordId": 82,
+      "sleep_recordId": 82,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-22",
@@ -6097,7 +6097,7 @@
     },
     {
       "id": 83,
-      "daily_recordId": 83,
+      "sleep_recordId": 83,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-23",
@@ -6108,7 +6108,7 @@
     },
     {
       "id": 84,
-      "daily_recordId": 84,
+      "sleep_recordId": 84,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-24",
@@ -6119,7 +6119,7 @@
     },
     {
       "id": 85,
-      "daily_recordId": 85,
+      "sleep_recordId": 85,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-25",
@@ -6130,7 +6130,7 @@
     },
     {
       "id": 86,
-      "daily_recordId": 86,
+      "sleep_recordId": 86,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-26",
@@ -6141,7 +6141,7 @@
     },
     {
       "id": 87,
-      "daily_recordId": 87,
+      "sleep_recordId": 87,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-27",
@@ -6152,7 +6152,7 @@
     },
     {
       "id": 88,
-      "daily_recordId": 88,
+      "sleep_recordId": 88,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-28",
@@ -6163,7 +6163,7 @@
     },
     {
       "id": 89,
-      "daily_recordId": 89,
+      "sleep_recordId": 89,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-29",
@@ -6174,7 +6174,7 @@
     },
     {
       "id": 90,
-      "daily_recordId": 90,
+      "sleep_recordId": 90,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-30",
@@ -6185,7 +6185,7 @@
     },
     {
       "id": 91,
-      "daily_recordId": 91,
+      "sleep_recordId": 91,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-10-31",
@@ -6196,7 +6196,7 @@
     },
     {
       "id": 92,
-      "daily_recordId": 92,
+      "sleep_recordId": 92,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-01",
@@ -6207,7 +6207,7 @@
     },
     {
       "id": 93,
-      "daily_recordId": 93,
+      "sleep_recordId": 93,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-02",
@@ -6218,7 +6218,7 @@
     },
     {
       "id": 94,
-      "daily_recordId": 94,
+      "sleep_recordId": 94,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-03",
@@ -6229,7 +6229,7 @@
     },
     {
       "id": 95,
-      "daily_recordId": 95,
+      "sleep_recordId": 95,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-04",
@@ -6240,7 +6240,7 @@
     },
     {
       "id": 96,
-      "daily_recordId": 96,
+      "sleep_recordId": 96,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-05",
@@ -6251,7 +6251,7 @@
     },
     {
       "id": 97,
-      "daily_recordId": 97,
+      "sleep_recordId": 97,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-06",
@@ -6262,7 +6262,7 @@
     },
     {
       "id": 98,
-      "daily_recordId": 98,
+      "sleep_recordId": 98,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-07",
@@ -6273,7 +6273,7 @@
     },
     {
       "id": 99,
-      "daily_recordId": 99,
+      "sleep_recordId": 99,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-08",
@@ -6284,7 +6284,7 @@
     },
     {
       "id": 100,
-      "daily_recordId": 100,
+      "sleep_recordId": 100,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-09",
@@ -6295,7 +6295,7 @@
     },
     {
       "id": 101,
-      "daily_recordId": 101,
+      "sleep_recordId": 101,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-10",
@@ -6306,7 +6306,7 @@
     },
     {
       "id": 102,
-      "daily_recordId": 102,
+      "sleep_recordId": 102,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-11",
@@ -6317,7 +6317,7 @@
     },
     {
       "id": 103,
-      "daily_recordId": 103,
+      "sleep_recordId": 103,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-12",
@@ -6328,7 +6328,7 @@
     },
     {
       "id": 104,
-      "daily_recordId": 104,
+      "sleep_recordId": 104,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-13",
@@ -6339,7 +6339,7 @@
     },
     {
       "id": 105,
-      "daily_recordId": 105,
+      "sleep_recordId": 105,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-14",
@@ -6350,7 +6350,7 @@
     },
     {
       "id": 106,
-      "daily_recordId": 106,
+      "sleep_recordId": 106,
       "kidId": 2,
       "userId": 2,
       "record_date": "2023-11-15",
@@ -6361,7 +6361,7 @@
     },
     {
       "id": 107,
-      "daily_recordId": 107,
+      "sleep_recordId": 107,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-24",
@@ -6372,7 +6372,7 @@
     },
     {
       "id": 108,
-      "daily_recordId": 108,
+      "sleep_recordId": 108,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-25",
@@ -6383,7 +6383,7 @@
     },
     {
       "id": 109,
-      "daily_recordId": 109,
+      "sleep_recordId": 109,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-26",
@@ -6394,7 +6394,7 @@
     },
     {
       "id": 110,
-      "daily_recordId": 110,
+      "sleep_recordId": 110,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-27",
@@ -6405,7 +6405,7 @@
     },
     {
       "id": 111,
-      "daily_recordId": 111,
+      "sleep_recordId": 111,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-28",
@@ -6416,7 +6416,7 @@
     },
     {
       "id": 112,
-      "daily_recordId": 112,
+      "sleep_recordId": 112,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-29",
@@ -6427,7 +6427,7 @@
     },
     {
       "id": 113,
-      "daily_recordId": 113,
+      "sleep_recordId": 113,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-09-30",
@@ -6438,7 +6438,7 @@
     },
     {
       "id": 114,
-      "daily_recordId": 114,
+      "sleep_recordId": 114,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-01",
@@ -6449,7 +6449,7 @@
     },
     {
       "id": 115,
-      "daily_recordId": 115,
+      "sleep_recordId": 115,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-02",
@@ -6460,7 +6460,7 @@
     },
     {
       "id": 116,
-      "daily_recordId": 116,
+      "sleep_recordId": 116,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-03",
@@ -6471,7 +6471,7 @@
     },
     {
       "id": 117,
-      "daily_recordId": 117,
+      "sleep_recordId": 117,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-04",
@@ -6482,7 +6482,7 @@
     },
     {
       "id": 118,
-      "daily_recordId": 118,
+      "sleep_recordId": 118,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-05",
@@ -6493,7 +6493,7 @@
     },
     {
       "id": 119,
-      "daily_recordId": 119,
+      "sleep_recordId": 119,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-06",
@@ -6504,7 +6504,7 @@
     },
     {
       "id": 120,
-      "daily_recordId": 120,
+      "sleep_recordId": 120,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-07",
@@ -6515,7 +6515,7 @@
     },
     {
       "id": 121,
-      "daily_recordId": 121,
+      "sleep_recordId": 121,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-08",
@@ -6526,7 +6526,7 @@
     },
     {
       "id": 122,
-      "daily_recordId": 122,
+      "sleep_recordId": 122,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-09",
@@ -6537,7 +6537,7 @@
     },
     {
       "id": 123,
-      "daily_recordId": 123,
+      "sleep_recordId": 123,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-10",
@@ -6548,7 +6548,7 @@
     },
     {
       "id": 124,
-      "daily_recordId": 124,
+      "sleep_recordId": 124,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-11",
@@ -6559,7 +6559,7 @@
     },
     {
       "id": 125,
-      "daily_recordId": 125,
+      "sleep_recordId": 125,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-12",
@@ -6570,7 +6570,7 @@
     },
     {
       "id": 126,
-      "daily_recordId": 126,
+      "sleep_recordId": 126,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-13",
@@ -6581,7 +6581,7 @@
     },
     {
       "id": 127,
-      "daily_recordId": 127,
+      "sleep_recordId": 127,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-14",
@@ -6592,7 +6592,7 @@
     },
     {
       "id": 128,
-      "daily_recordId": 128,
+      "sleep_recordId": 128,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-15",
@@ -6603,7 +6603,7 @@
     },
     {
       "id": 129,
-      "daily_recordId": 129,
+      "sleep_recordId": 129,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-16",
@@ -6614,7 +6614,7 @@
     },
     {
       "id": 130,
-      "daily_recordId": 130,
+      "sleep_recordId": 130,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-17",
@@ -6625,7 +6625,7 @@
     },
     {
       "id": 131,
-      "daily_recordId": 131,
+      "sleep_recordId": 131,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-18",
@@ -6636,7 +6636,7 @@
     },
     {
       "id": 132,
-      "daily_recordId": 132,
+      "sleep_recordId": 132,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-19",
@@ -6647,7 +6647,7 @@
     },
     {
       "id": 133,
-      "daily_recordId": 133,
+      "sleep_recordId": 133,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-20",
@@ -6658,7 +6658,7 @@
     },
     {
       "id": 134,
-      "daily_recordId": 134,
+      "sleep_recordId": 134,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-21",
@@ -6669,7 +6669,7 @@
     },
     {
       "id": 135,
-      "daily_recordId": 135,
+      "sleep_recordId": 135,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-22",
@@ -6680,7 +6680,7 @@
     },
     {
       "id": 136,
-      "daily_recordId": 136,
+      "sleep_recordId": 136,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-23",
@@ -6691,7 +6691,7 @@
     },
     {
       "id": 137,
-      "daily_recordId": 137,
+      "sleep_recordId": 137,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-24",
@@ -6702,7 +6702,7 @@
     },
     {
       "id": 138,
-      "daily_recordId": 138,
+      "sleep_recordId": 138,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-25",
@@ -6713,7 +6713,7 @@
     },
     {
       "id": 139,
-      "daily_recordId": 139,
+      "sleep_recordId": 139,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-26",
@@ -6724,7 +6724,7 @@
     },
     {
       "id": 140,
-      "daily_recordId": 140,
+      "sleep_recordId": 140,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-27",
@@ -6735,7 +6735,7 @@
     },
     {
       "id": 141,
-      "daily_recordId": 141,
+      "sleep_recordId": 141,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-28",
@@ -6746,7 +6746,7 @@
     },
     {
       "id": 142,
-      "daily_recordId": 142,
+      "sleep_recordId": 142,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-29",
@@ -6757,7 +6757,7 @@
     },
     {
       "id": 143,
-      "daily_recordId": 143,
+      "sleep_recordId": 143,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-30",
@@ -6768,7 +6768,7 @@
     },
     {
       "id": 144,
-      "daily_recordId": 144,
+      "sleep_recordId": 144,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-10-31",
@@ -6779,7 +6779,7 @@
     },
     {
       "id": 145,
-      "daily_recordId": 145,
+      "sleep_recordId": 145,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-01",
@@ -6790,7 +6790,7 @@
     },
     {
       "id": 146,
-      "daily_recordId": 146,
+      "sleep_recordId": 146,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-02",
@@ -6801,7 +6801,7 @@
     },
     {
       "id": 147,
-      "daily_recordId": 147,
+      "sleep_recordId": 147,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-03",
@@ -6812,7 +6812,7 @@
     },
     {
       "id": 148,
-      "daily_recordId": 148,
+      "sleep_recordId": 148,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-04",
@@ -6823,7 +6823,7 @@
     },
     {
       "id": 149,
-      "daily_recordId": 149,
+      "sleep_recordId": 149,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-05",
@@ -6834,7 +6834,7 @@
     },
     {
       "id": 150,
-      "daily_recordId": 150,
+      "sleep_recordId": 150,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-06",
@@ -6845,7 +6845,7 @@
     },
     {
       "id": 151,
-      "daily_recordId": 151,
+      "sleep_recordId": 151,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-07",
@@ -6856,7 +6856,7 @@
     },
     {
       "id": 152,
-      "daily_recordId": 152,
+      "sleep_recordId": 152,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-08",
@@ -6867,7 +6867,7 @@
     },
     {
       "id": 153,
-      "daily_recordId": 153,
+      "sleep_recordId": 153,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-09",
@@ -6878,7 +6878,7 @@
     },
     {
       "id": 154,
-      "daily_recordId": 154,
+      "sleep_recordId": 154,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-10",
@@ -6889,7 +6889,7 @@
     },
     {
       "id": 155,
-      "daily_recordId": 155,
+      "sleep_recordId": 155,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-11",
@@ -6900,7 +6900,7 @@
     },
     {
       "id": 156,
-      "daily_recordId": 156,
+      "sleep_recordId": 156,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-12",
@@ -6911,7 +6911,7 @@
     },
     {
       "id": 157,
-      "daily_recordId": 157,
+      "sleep_recordId": 157,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-13",
@@ -6922,7 +6922,7 @@
     },
     {
       "id": 158,
-      "daily_recordId": 158,
+      "sleep_recordId": 158,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-14",
@@ -6933,7 +6933,7 @@
     },
     {
       "id": 159,
-      "daily_recordId": 159,
+      "sleep_recordId": 159,
       "kidId": 3,
       "userId": 2,
       "record_date": "2023-11-15",

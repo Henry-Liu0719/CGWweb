@@ -1,5 +1,5 @@
-const url = 'https://cgwweb.onrender.com';
-// const url = 'http://localhost:3000';
+// const url = 'https://cgwweb.onrender.com';
+const url = 'http://localhost:3000';
 let token = '';
 // let signupInfo =     {
 //       email: "pikachu@mail.com",
@@ -30,6 +30,7 @@ let foodRecordsByMonth;
 let monthlyRecords;
 let testData;
 let signupData;
+let addKidData;
 
 function getDatetime(){
   const now = new Date();
