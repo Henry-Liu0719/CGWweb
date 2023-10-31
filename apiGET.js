@@ -91,29 +91,18 @@ function getMonthlyRecords(num = 1,kidNum=0){
     _response = error.response;
   })
 }
-
-async function tryApi() {
-  try {
-    const response = await axios.get(`${url}/600/users/${userInfo.id.toString()}?_embed=kids`,{
+function getDailyRecords(date = getMonthDate(),kidNum=0){
+  axios.get(`${url}/600/sleep_records?kidId=${userInfo.kids[kidNum].id.toString()}&record_date=${date}&_embed=breakfast_records&_embed=lunch_records&_embed=dinner_records`,{
     headers:{
       "authorization":`Bearer ${token}`
     }
   })
-    console.log(response.data);
-    return response.data
-    
-   
-  } catch (error) {
+  .then(function (response){
+    console.log(response);
+    _response = response;
+  })
+  .catch(function (error){
     console.log(error.response);
-    throw error; // 抛出错误以便处理错误情况
-  }
-}
-
-async function main() {
-  try {
-    const result = await tryApi();
-    console.log("Promise 已解决，结果为: ", result);
-  } catch (error) {
-    console.error("Promise 已拒绝，错误为: ", error);
-  }
+    _response = error.response;
+  })
 }

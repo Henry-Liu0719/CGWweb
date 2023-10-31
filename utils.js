@@ -1,5 +1,6 @@
 const url = 'https://cgwweb.onrender.com';
 // const url = 'http://localhost:3000';
+
 let token = '';
 // let signupInfo =     {
 //       email: "pikachu@mail.com",
@@ -265,33 +266,13 @@ function generateDailyObjArr(
 
     return dateList;
   }
-
-  function countSleepHours(startTime,endTime){
-
-    // 将时间字符串转换为日期对象
-    const startDate = new Date(`2023-09-24 ${startTime}`);
-    const endDate = new Date(`2023-09-25 ${endTime}`);
-
-    // 计算第一天的时间长度（20:00 到 00:00）
-    const firstDayPart = new Date(`2023-09-24 24:00`) - startDate;
-
-    // 计算第二天的时间长度（00:00 到 07:00）
-    const secondDayPart = endDate - new Date(`2023-09-25 00:00`);
-
-    // 将两部分时间长度相加
-    const totalDuration = firstDayPart + secondDayPart;
-
-    // console.log(totalDuration / 3600000); // 将结果转换为小时
-
-    return totalDuration / 3600000;
-  }
-
 }
 
   function getMonthDate(str,year=0,month=0){
     // 创建当前日期的 Date 对象
     const currentDate = (year==0&month==0)?new Date():new Date(year,month-1,1);
-
+    // 加上 8 小时以调整时区
+    currentDate.setHours(currentDate.getHours() + 8);
     // 获取当前月份的年份和月份
     const currentYear = currentDate.getFullYear();
     const currentMonth = currentDate.getMonth();
@@ -305,10 +286,12 @@ function generateDailyObjArr(
     const nextMonth = currentMonth + 1;
     const nextMonthYear = currentYear + (nextMonth > 11 ? 1 : 0);
     const firstDayOfNextMonth = new Date(nextMonthYear, nextMonth % 12, 1);
-
+    // 加上 8 小时以调整时区
+    firstDayOfNextMonth.setHours(firstDayOfNextMonth.getHours() + 8);
     // 计算本月的最后一天（上个月的最后一天）
     const lastDayOfCurrentMonth = new Date(firstDayOfNextMonth - 1);
-
+    // 加上 8 小时以调整时区
+    lastDayOfCurrentMonth.setHours(lastDayOfCurrentMonth.getHours() + 8);
     // 格式化日期为 "YYYY-MM-DD" 形式
     const formattedFirstDay = firstDayOfCurrentMonth.toISOString().split('T')[0];
     const formattedLastDay = lastDayOfCurrentMonth.toISOString().split('T')[0];
@@ -317,5 +300,29 @@ function generateDailyObjArr(
     if(str=='lastDay')
       return formattedLastDay
 
-    return console.log('請輸入firstDay或lastDay');
+    return currentDate.toISOString().split('T')[0];
+  }
+    function countSleepHours(startTime,endTime){
+    // 将时间字符串转换为日期对象
+    if(endTime < startTime){
+      let startDate = new Date(`2023-09-24 ${startTime}`);
+      let endDate = new Date(`2023-09-25 ${endTime}`);
+      // 计算第一天的时间长度（20:00 到 00:00）
+      const firstDayPart = new Date(`2023-09-24 24:00`) - startDate;
+
+      // 计算第二天的时间长度（00:00 到 07:00）
+      const secondDayPart = endDate - new Date(`2023-09-25 00:00`);
+
+      // 将两部分时间长度相加
+      const totalDuration = firstDayPart + secondDayPart;
+      
+      // console.log(totalDuration / 3600000); // 将结果转换为小时
+      return totalDuration / 3600000;
+    }else{
+      let startDate = new Date(`2023-09-25 ${startTime}`);
+      let endDate = new Date(`2023-09-25 ${endTime}`);
+      const totalDuration = endDate - startDate;
+      // console.log(totalDuration / 3600000); // 将结果转换为小时
+      return totalDuration / 3600000;
+    }
   }
